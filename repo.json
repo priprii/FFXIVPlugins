@@ -83,7 +83,7 @@
 		"Description": "Track who is targeting you in an overlay list.",
 		"Tags": [ "target", "overlay", "pyon" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "1.0.0.9",
+		"AssemblyVersion": "1.0.1.0",
 		"Changelog": "Config clean up, option to only enable interaction with overlay while ALT is pressed, added distance and blacklist functions to config player list.",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 9,
