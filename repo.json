@@ -121,7 +121,7 @@
 		"Description": "Track who is targeting you in an overlay list.",
 		"Tags": [ "target", "overlay", "pyon" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "1.0.1.1",
+		"AssemblyVersion": "1.0.1.2",
 		"Changelog": "Conditional visibility + adjustments to font display.",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 9,
