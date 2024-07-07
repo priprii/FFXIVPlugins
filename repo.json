@@ -26,7 +26,7 @@
 		"Description": "A robust posing tool for creating screenshots in GPose, Pyon version includes additional features like selective bone import, scene editing & output editing.",
 		"Tags": [ "ktisis", "gpose", "pose", "pyon" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "0.2.23",
+		"AssemblyVersion": "0.2.24",
 		"Changelog": "Updated for Api10 7.0",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 10,
