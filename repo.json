@@ -7,7 +7,7 @@
 		"Description": "Artisan, but without the release build limitation.",
 		"Tags": [ "crafting", "artisan", "pyon" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "4.0.1.1",
+		"AssemblyVersion": "4.0.1.2",
 		"Changelog": "",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 10,
