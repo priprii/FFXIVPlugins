@@ -45,7 +45,7 @@
 		"Description": "A multifaceted scene editor and posing tool for GPose. Pyon version includes selective bone importing and output options.",
 		"Tags": [ "ktisis", "gpose", "pose", "pyon" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "0.3.1.0",
+		"AssemblyVersion": "0.3.1.1",
 		"Changelog": "",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 10,
