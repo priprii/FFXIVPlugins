@@ -59,5 +59,6 @@ Additional features:
 - Play an audio alert when a player targets you
 - Mark players targeting you
 - Open Inspect & Adventure Plate windows without needing to target players
+- Interactions with listed players (LClick: Target, RClick: Remove, MClick: Open Adventure Plate)
 
 https://github.com/user-attachments/assets/5e9968ad-f95a-44be-a265-0fd4a59d1a75
