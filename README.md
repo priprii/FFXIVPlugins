@@ -1,6 +1,7 @@
 *A collection of plugins maintained by Primu Pyon*
 
-*These plugins are primarily developed for the PonPon cwls.*
+> [!NOTE]
+> These plugins are primarily developed for the PonPon cwls.
 
 ## Installation
 
@@ -44,6 +45,8 @@ Display names of enemy players in PvP, optionally limited to your friends so you
 
 A Tamagotchi game that you can play while you play FFXIV.
 
+https://github.com/user-attachments/assets/b0fe778a-4fe5-4051-b1cb-898ddaf95faf
+
 ### TargetPyon
 
 Similar to PeepingTom but better, displays names of players in a customizable overlay list who:
@@ -56,3 +59,5 @@ Additional features:
 - Play an audio alert when a player targets you
 - Mark players targeting you
 - Open Inspect & Adventure Plate windows without needing to target players
+
+https://github.com/user-attachments/assets/5e9968ad-f95a-44be-a265-0fd4a59d1a75
