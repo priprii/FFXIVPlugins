@@ -19,6 +19,7 @@ A version of [Artisan](https://github.com/PunishXIV/Artisan) with the Dalamud bu
 
 A version of [Ktisis](https://github.com/ktisis-tools/Ktisis) v0.3 with additional features:
 
+- MCDF import (Mare Appearance)
 - Selective bone import with descendants
 - Face/Body import options
 - Pose flipping
