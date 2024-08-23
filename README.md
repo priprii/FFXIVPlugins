@@ -34,10 +34,6 @@ Automatically re-create Party Finder listings.
 
 Display the distance from party members in the party list.
 
-### PricePyon
-
-A version of [PriceInsight](https://github.com/Kouzukii/ffxiv-priceinsight) which is able to retrieve price data even while the Universalis api is at capacity.
-
 ### PvPyon (Outdated)
 
 Display names of enemy players in PvP, optionally limited to your friends so you can murder them if you queue in separate parties.
