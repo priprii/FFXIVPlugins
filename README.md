@@ -38,6 +38,10 @@ Display the distance from party members in the party list.
 
 Display names of enemy players in PvP, optionally limited to your friends so you can murder them if you queue in separate parties.
 
+### PyonCam
+
+A version of [Cammy](https://github.com/UnknownX7/Cammy) with a few bug fixes & IPC implementation for integration with TargetPyon.
+
 ### TamaPyon (In Development)
 
 A Tamagotchi game that you can play while you play FFXIV.
@@ -56,6 +60,6 @@ Additional features:
 - Play an audio alert when a player targets you
 - Mark players targeting you
 - Open Inspect & Adventure Plate windows without needing to target players
-- Interactions with listed players (LClick: Target, RClick: Remove, MClick: Open Adventure Plate)
+- Interactions with listed players (Lock camera orbit, Target, Remove, Adventure Plate, Examine, Locate on map, Toggle visibility, Blacklist)
 
 https://github.com/user-attachments/assets/5e9968ad-f95a-44be-a265-0fd4a59d1a75
