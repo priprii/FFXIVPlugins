@@ -43,6 +43,7 @@ Display names of enemy players in PvP, optionally limited to your friends so you
 A version of [Cammy](https://github.com/UnknownX7/Cammy) with additional features:
 - IPC implementation for integration with TargetPyon.
 - Fix freecam interrupting doze.
+- Soon will refactor profiles which will fix some other bugs.
 
 ### TamaPyon (In Development)
 
