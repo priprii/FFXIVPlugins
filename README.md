@@ -25,6 +25,7 @@ A version of [Ktisis](https://github.com/ktisis-tools/Ktisis) v0.3 with addition
 - Pose flipping
 - Hi-res image output
 - Gizmo configuration
+- Bug fix: ImGuizmo-Bridge.dll locking on plugin reload
 
 ### PartyPyon (Outdated)
 
