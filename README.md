@@ -40,7 +40,9 @@ Display names of enemy players in PvP, optionally limited to your friends so you
 
 ### PyonCam
 
-A version of [Cammy](https://github.com/UnknownX7/Cammy) with a few bug fixes & IPC implementation for integration with TargetPyon.
+A version of [Cammy](https://github.com/UnknownX7/Cammy) with additional features:
+- IPC implementation for integration with TargetPyon.
+- Fix freecam interrupting doze.
 
 ### TamaPyon (In Development)
 
