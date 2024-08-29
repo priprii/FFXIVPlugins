@@ -25,7 +25,7 @@ A version of [Ktisis](https://github.com/ktisis-tools/Ktisis) v0.3 with addition
 - Pose flipping
 - Hi-res image output
 - Gizmo scaling & additional customization
-- Bug Fix: ImGuizmo-Bridge.dll locking on plugin reload
+- Fixed Bug: ImGuizmo-Bridge.dll locking on plugin reload
 
 ### PartyPyon (Outdated)
 
@@ -42,9 +42,10 @@ Display names of enemy players in PvP, optionally limited to your friends so you
 ### PyonCam
 
 A version of [Cammy](https://github.com/UnknownX7/Cammy) with additional features:
-- IPC implementation for integration with TargetPyon
-- Bug Fix: Freecam movement interrupting doze
-- Soon will refactor profiles which will fix some other bugs
+- IPC implementation for 'Camera Orbit' integration with TargetPyon
+- Fixed Bug: FreeCam movement interrupting doze
+- Fixed Bug: Camera properties reverting to default at login or during gameplay.
+- More user-friendly UI
 
 ### TamaPyon (In Development)
 
