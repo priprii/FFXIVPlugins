@@ -121,7 +121,7 @@
 		"Description": "Cammy, but with some adjustments.",
 		"Tags": [ "cam", "camera", "cammy", "pyon" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "2.1.1.2",
+		"AssemblyVersion": "2.1.1.3",
 		"Changelog": "A lot of changes, user-friendly UI & bug fixes.",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 10,
