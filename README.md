@@ -22,6 +22,7 @@ A version of [Ktisis](https://github.com/ktisis-tools/Ktisis) v0.3 with addition
 - MCDF import (Mare Appearance)
 - Selective bone import with descendants
 - Face/Body import options
+- Import/export lights
 - Pose flipping
 - Hi-res image output
 - Gizmo scaling & additional customization
