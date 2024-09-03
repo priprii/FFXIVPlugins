@@ -27,6 +27,7 @@ A version of [Ktisis](https://github.com/ktisis-tools/Ktisis) v0.3 with addition
 - Hi-res image output
 - Toggle visibility of actor/light objects
 - Toggle default visibility of groups/bones in overlay with Pose entity
+- Camera options (work camera move speed/sensitivity, offset to target pose)
 - Gizmo scaling & customization
 - Overlay customization & bug fixes
 - Fixed Bug: ImGuizmo-Bridge.dll locking on plugin reload
