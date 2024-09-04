@@ -30,6 +30,7 @@ A version of [Ktisis](https://github.com/ktisis-tools/Ktisis) v0.3 with addition
 - Camera options (work camera move speed/sensitivity, offset to target pose)
 - Gizmo scaling & customization
 - Overlay customization & bug fixes
+- Adjust how overlay displays depending on active state of actors
 - Fixed Bug: ImGuizmo-Bridge.dll locking on plugin reload
 
 ### PartyPyon (Outdated)
