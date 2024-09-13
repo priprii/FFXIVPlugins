@@ -70,9 +70,10 @@ Similar to PeepingTom but better, displays names of players in a customizable ov
 - Targeting those who targeted you
 
 Additional features:
-- Customize the font & background of the overlay list
+- Customize the font, background & formatting of the overlay list
 - Play an audio alert when a player targets you
 - Mark players targeting you
+- Display direction of players from your facing direction.
 - Open Inspect & Adventure Plate windows without needing to target players
 - Interactions with listed players (Lock camera orbit, Target, Remove, Adventure Plate, Examine, Locate on map, Toggle visibility, Blacklist)
 
