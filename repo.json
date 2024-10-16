@@ -140,7 +140,7 @@
 		"Description": "Track who is targeting you in an overlay list.",
 		"Tags": [ "target", "overlay", "pyon" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "1.0.2.9",
+		"AssemblyVersion": "1.0.3.0",
 		"Changelog": "Custom audio alert, bug fixes.",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 10,
