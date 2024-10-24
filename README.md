@@ -24,7 +24,7 @@ A version of [Ktisis](https://github.com/ktisis-tools/Ktisis) v0.3 with addition
 
 <details><summary>MCDF import (Mare Appearance)</summary><video src="https://github.com/user-attachments/assets/3e9fb3a2-0280-4d57-974f-88e4f8db865d"/></details>
 <details><summary>Selective bone import with descendants</summary><video src="https://github.com/user-attachments/assets/8bbaecf2-dd27-4010-a0f4-7b249b4fc3b5"/></details>
-<details><summary>Face/Body import options</summary><video src="https://github.com/user-attachments/assets/71cb7439-7a05-4e9d-a64c-16a5b77f87e5"/></details>
+<details><summary>Face/Body import options</summary><p><i>Face/Body import options are now in Ktisis v0.3.2, but they're currently buggy so KtisisPyon will continue to implement it differently.</i></p><video src="https://github.com/user-attachments/assets/71cb7439-7a05-4e9d-a64c-16a5b77f87e5"/></details>
 <details><summary>Import/export lights</summary><video src="https://github.com/user-attachments/assets/b46153f1-9aba-4cae-9455-61f4c1edee19"/></details>
 <details><summary>Pose flipping</summary><video src="https://github.com/user-attachments/assets/a99ee7ba-f047-48c1-9a8d-a5ef08a481a1"/></details>
 <details><summary>Hi-res image output</summary><video src="https://github.com/user-attachments/assets/a0327b78-5944-4b85-89b9-98e2049a6ed9"/></details>
