@@ -64,7 +64,7 @@
 		"Description": "Automatically recreate party finder listing.",
 		"Tags": [ "party", "finder", "pyon" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "1.0.2.0",
+		"AssemblyVersion": "1.0.2.1",
 		"Changelog": "Updated for Dawntrail",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 10,
