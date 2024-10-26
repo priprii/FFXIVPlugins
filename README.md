@@ -36,7 +36,7 @@ A version of [Ktisis](https://github.com/ktisis-tools/Ktisis) v0.3 with addition
 <details><summary>Overlay customization & bug fixes</summary><video src="https://github.com/user-attachments/assets/0e8743f4-4fff-44b3-a1a9-173dad6de985"/></details>
 <details><summary>Adjust how overlay displays depending on active state of actors</summary><video src="https://github.com/user-attachments/assets/871af91f-922f-4701-b960-0e2ff872486a"/></details>
 
-### PartyPyon (Outdated)
+### PartyPyon
 
 Automatically re-create Party Finder listings.
 
