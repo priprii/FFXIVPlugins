@@ -38,7 +38,7 @@ A version of [Ktisis](https://github.com/ktisis-tools/Ktisis) v0.3 with addition
 
 ### PartyPyon
 
-Automatically re-create Party Finder listings.
+Automatically re-create Party Finder listings. *(This plugin is only for verified venue owners)*
 
 ### PartyRangePyon
 
