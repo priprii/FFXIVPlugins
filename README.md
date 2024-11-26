@@ -56,6 +56,10 @@ A version of [Cammy](https://github.com/UnknownX7/Cammy) with additional feature
 - Fixed Bug: Camera properties reverting to default at login or during gameplay.
 - More user-friendly UI
 
+### SoundPyon
+
+Similar to [SoundFilter](https://git.anna.lgbt/anna/SoundFilter) but updated for Dawntrail & has a more user-friendly UI.
+
 ### TamaPyon (In Development)
 
 A Tamagotchi game that you can play while you play FFXIV.
