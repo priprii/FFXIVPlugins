@@ -80,5 +80,6 @@ Additional features:
 - Display direction of players from your facing direction.
 - Open Inspect & Adventure Plate windows without needing to target players
 - Interactions with listed players (Lock camera orbit, Target, Remove, Adventure Plate, Examine, Locate on map, Toggle visibility, Blacklist)
+- Toggle visibility of players who are not in party/friend list
 
 https://github.com/user-attachments/assets/5e9968ad-f95a-44be-a265-0fd4a59d1a75
