@@ -40,13 +40,17 @@ A version of [Ktisis](https://github.com/ktisis-tools/Ktisis) v0.3 with addition
 
 Automatically re-create Party Finder listings. *(This plugin is only for verified venue owners)*
 
-### PartyRangePyon
+### PartyRangePyon (Outdated)
 
 Display the distance from party members in the party list.
+
+*Note: This plugin is currently outdated, the functionality of this plugin will soon be moved to TargetPyon.*
 
 ### PvPyon (Outdated)
 
 Display names of enemy players in PvP, optionally limited to your friends so you can murder them if you queue in separate parties.
+
+*Note: This plugin is currently outdated, the functionality of this plugin will soon be moved to TargetPyon.*
 
 ### PyonCam
 
