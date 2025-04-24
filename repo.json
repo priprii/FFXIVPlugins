@@ -7,7 +7,7 @@
 		"Description": "Artisan, but without the release build limitation.",
 		"Tags": [ "crafting", "artisan", "pyon" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "4.0.3.11",
+		"AssemblyVersion": "4.0.3.12",
 		"Changelog": "Cosmic Exploration",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 12,
