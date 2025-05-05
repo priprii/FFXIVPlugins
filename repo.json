@@ -159,7 +159,7 @@
 		"Description": "Track who is targeting you in an overlay list.",
 		"Tags": [ "target", "overlay", "pyon" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "1.0.6.2",
+		"AssemblyVersion": "1.0.6.3",
 		"Changelog": "Added Mare IPC",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 12,
