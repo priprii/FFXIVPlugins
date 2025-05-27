@@ -9,6 +9,8 @@ Add the following to Dalamud Settings > Experimental > Custom Plugin Repositorie
 
 `https://raw.githubusercontent.com/priprii/FFXIVPlugins/main/repo.json`
 
+Then search `pyon` in your plugins list to find all the pyon plugins available.
+
 ## Plugins
 
 ### ArtisanPyon
