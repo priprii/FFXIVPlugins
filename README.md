@@ -15,9 +15,12 @@ Add the following to Dalamud Settings > Experimental > Custom Plugin Repositorie
 
 A version of [Artisan](https://github.com/PunishXIV/Artisan) with the Dalamud build limitation removed, allowing use of the plugin on beta builds.
 
+> [!NOTE]
+> ArtisanPyon will soon be removed as the beta limitation was recently removed from the official Artisan plugin.
+
 ### KtisisPyon
 
-A version of [Ktisis](https://github.com/ktisis-tools/Ktisis) v0.3 with additional features:
+A tool for assisting with Gposing, adapted from [Ktisis](https://github.com/ktisis-tools/Ktisis)v0.3 with additional features:
 
 > [!NOTE]
 > Click a feature to display preview/info.
@@ -38,7 +41,7 @@ A version of [Ktisis](https://github.com/ktisis-tools/Ktisis) v0.3 with addition
 
 ### PartyPyon
 
-Automatically re-create Party Finder listings. *(This plugin is only for verified venue owners)*
+Automatically re-create Party Finder listings. *(To mitigate abuse from bots: This plugin is only for verified venue owners, contact me on Discord for key)*
 
 ### PartyRangePyon (Outdated)
 
@@ -54,15 +57,13 @@ Display names of enemy players in PvP, optionally limited to your friends so you
 
 ### PyonCam
 
-A version of [Cammy](https://github.com/UnknownX7/Cammy) with additional features:
+Custom camera profiles, similar to [Cammy](https://github.com/UnknownX7/Cammy) with additional features:
 - IPC implementation for 'Camera Orbit' integration with TargetPyon
-- Fixed Bug: FreeCam movement interrupting doze
-- Fixed Bug: Camera properties reverting to default at login or during gameplay.
-- More user-friendly UI
+- Simplified UI with preset bug fixes
 
 ### SoundPyon
 
-Similar to [SoundFilter](https://git.anna.lgbt/anna/SoundFilter) but updated for Dawntrail & has a more user-friendly UI.
+Filter annoying sounds, similar to [SoundFilter](https://git.anna.lgbt/anna/SoundFilter) but updated for Dawntrail & simplified UI.
 
 ### TamaPyon (In Development)
 
