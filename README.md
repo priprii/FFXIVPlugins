@@ -90,3 +90,9 @@ Additional features:
 - Toggle visibility of players who are not in party/friend list
 
 https://github.com/user-attachments/assets/5e9968ad-f95a-44be-a265-0fd4a59d1a75
+
+### TriggerPyon
+
+Conditionally trigger counter/emote/command/title reactions.
+
+*Note: This plugin is currently a beta version, some features are not yet implemented.*
