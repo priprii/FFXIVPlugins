@@ -110,7 +110,7 @@ Current Features:
 - Copy/Paste triggers for sending to other people
 
 Upcoming Features:
-- Additional conditions for triggering reactions depending on how the instigator/receiver relate to you. (Eg. Friend/Party/Mare Synced etc)
+- Additional conditions for triggering reactions depending on how the instigator/receiver relates to you. (Eg. Friend/Party/Mare Synced etc)
 - Conditions for triggering reactions depending on your status (AFK, DND, in duty etc)
 - Reaction queueing, for performing multiple reactions in a single trigger with delay/duration
 - Option to prevent consecutive triggers from interrupting a previous triggered reaction
@@ -119,6 +119,9 @@ Upcoming Features:
 - Additional counter type for persistent titles (Eg. For displaying discord status persistently but allowing other triggers to update title for counters before returning to the persistent title)
 - Toast/Echo messages on counter
 - Non-standard emote reactions (Stand & Sit/Sleep anywhere)
-- Condition for emote reactions to restrict performing reaction depending on instigator distance/angle from receiver
+- Condition for emote reactions to restrict performing reaction depending on instigator distance/angle from receiver (Eg. Only react to spank if you were spanked from behind)
 - Position/rotation adjustment for emote reactions (so you can position correctly when reacting to a couple emote like hugs without needing to manually adjust)
+- Option to change target (untarget, target self/instigator/receiver) & restore previous target when reaction ends
+- Option to restore previously performed emote and/or facing direction after reaction (Eg. If you were dancing and an emote reaction interrupts it, continue dancing after)
 - Preset triggers for easy setup of common use cases (Mimic players, spank reaction and such)
+- Additional reaction types
