@@ -13,13 +13,6 @@ Then search `pyon` in your plugins list to find all the pyon plugins available.
 
 ## Plugins
 
-### ArtisanPyon
-
-A version of [Artisan](https://github.com/PunishXIV/Artisan) with the Dalamud build limitation removed, allowing use of the plugin on beta builds.
-
-> [!NOTE]
-> ArtisanPyon will soon be removed as the beta limitation was recently removed from the official Artisan plugin.
-
 ### KtisisPyon
 
 A tool for assisting with Gposing, adapted from [Ktisis](https://github.com/ktisis-tools/Ktisis)v0.3 with additional features:
