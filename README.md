@@ -94,7 +94,10 @@ Conditionally trigger counter/emote/command/title reactions.
 
 Current Features:
 - Trigger counter & emote reactions when an instigator performs either a selection of emotes or any emote.
-- Conditions for triggering reactions depending who the instigator/receiver is. (Specific player, self, others, all)
+- Conditions for triggering reactions depending on:
+  - Who the instigator/receiver are. (Specific player, self, others, all)
+  - How the instigator/receiver relate to you. (Eg. Friend/Party/Mare Synced)
+  - The status of the instigator/receiver (AFK, Busy, RPing etc)
 - Display counter as an Honorific title with custom template per trigger, or share counter with another trigger.
 - Variable counter frequency
 - Option for maintaining facing direction for emote reactions. (Useful for things like spank emote reaction =w=)
@@ -103,8 +106,6 @@ Current Features:
 - Copy/Paste triggers for sending to other people
 
 Upcoming Features:
-- Additional conditions for triggering reactions depending on how the instigator/receiver relates to you. (Eg. Friend/Party/Mare Synced etc)
-- Conditions for triggering reactions depending on your status (AFK, DND, in duty etc)
 - Reaction queueing, for performing multiple reactions in a single trigger with delay/duration
 - Option to prevent consecutive triggers from interrupting a previous triggered reaction
 - Text triggers & reactions
