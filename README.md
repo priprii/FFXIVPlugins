@@ -104,7 +104,6 @@ Current Features:
 - Variable counter frequency
 - Option for maintaining facing direction for emote reactions. (Useful for things like spank emote reaction =w=)
 - Emote reaction can also be set to copy the same emote performed by the instigator.
-- Priority system for determining which triggers can override each other (This will be replaced by the below mentioned consecutive trigger interruption feature)
 - Copy/Paste triggers for sending to other people
 
 Upcoming Features:
