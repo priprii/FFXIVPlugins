@@ -1,14 +1,14 @@
 [
 	{
 		"Author": "Pyon",
-		"Name": "KtisisPyon v0.3",
+		"Name": "KtisisPyon",
 		"InternalName": "KtisisPyon",
 		"Punchline": "A multifaceted scene editor and posing tool for GPose. Pyon version includes several additional features which you can view on the repo page.",
 		"Description": "A multifaceted scene editor and posing tool for GPose. Pyon version includes several additional features which you can view on the repo page.",
 		"Tags": [ "ktisis", "gpose", "pose", "pyon" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "0.3.9.5",
-		"Changelog": "Penumbra IPC",
+		"AssemblyVersion": "0.4.0.0",
+		"Changelog": "Minor additions, bug fixes",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 13,
 		"IsHide": false,
