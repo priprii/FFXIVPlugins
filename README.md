@@ -89,29 +89,20 @@ https://github.com/user-attachments/assets/5e9968ad-f95a-44be-a265-0fd4a59d1a75
 
 Conditionally trigger counter/emote/command/title reactions.
 
-> [!NOTE]
-> This plugin is currently a beta version, some features are not yet implemented.
-
 Current Features:
 - Trigger counter & emote/text reactions when an instigator either performs a selection of emotes, or sends a message with specific phrases.
 - Reaction queueing, for performing multiple reactions in a single trigger with delay/duration
-- Option to prevent consecutive triggers from interrupting a previous triggered reaction
 - Conditions for triggering reactions depending on:
   - Who the instigator/receiver are. (Specific player, self, others, all)
-  - How the instigator/receiver relate to you. (Eg. Friend/Party/Mare Synced)
+  - How the instigator/receiver relate to you. (Eg. Friend/Party/Synced)
   - The status of the instigator/receiver (AFK, Busy, RPing etc)
+- Various state related conditions for triggering reactions
 - Display counter as an Honorific title/toast/echo message with custom template per trigger, or share counter with another trigger.
-- Variable counter frequency
-- Option for maintaining facing direction for emote reactions. (Useful for things like spank emote reaction =w=)
-- Emote reaction can also be set to copy the same emote performed by the instigator.
-- Copy/Paste triggers for sending to other people
+- Options for LookAt/Target when performing emote reactions.
+- Restore specific states when a reaction finishes (Eg. Continue performing a dance emote that the triggered event interrupted)
+- Discord activity events (display current song you're listening to as a title)
+- Preset triggers for easy setup (Hug counter, mimic emotes, spank reaction, discord spotify status)
 
 Upcoming Features:
-- Discord triggers & title display (for Discord/Spotify status)
-- Additional counter type for persistent titles (Eg. For displaying discord status persistently but allowing other triggers to update title for counters before returning to the persistent title)
 - Non-standard emote reactions (Stand & Sit/Sleep anywhere)
-- Condition for emote reactions to restrict performing reaction depending on instigator distance/angle from receiver (Eg. Only react to spank if you were spanked from behind)
-- Position/rotation adjustment for emote reactions (so you can position correctly when reacting to a couple emote like hugs without needing to manually adjust)
-- Option to change target (untarget, target self/instigator/receiver) & restore previous target when reaction ends
-- Option to restore previously performed emote and/or facing direction after reaction (Eg. If you were dancing and an emote reaction interrupts it, continue dancing after)
-- Preset triggers for easy setup of common use cases (Mimic players, spank reaction and such)
+- Condition for emote reactions to restrict performing reaction depending on instigator distance/angle from receiver
