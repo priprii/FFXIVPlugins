@@ -140,7 +140,7 @@
 		"Description": "Conditionally trigger counter/emote/command/title reactions.",
 		"Tags": [ "trigger", "pyon", "emotes", "honorific", "title", "commands"  ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "1.1.0.3",
+		"AssemblyVersion": "1.1.0.4",
 		"Changelog": "",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 13,
