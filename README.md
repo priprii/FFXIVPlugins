@@ -89,20 +89,17 @@ https://github.com/user-attachments/assets/5e9968ad-f95a-44be-a265-0fd4a59d1a75
 
 Conditionally trigger counter/emote/command/title reactions.
 
-Current Features:
+Features:
 - Trigger counter & emote/text reactions when an instigator either performs a selection of emotes, or sends a message with specific phrases.
 - Reaction queueing, for performing multiple reactions in a single trigger with delay/duration
 - Conditions for triggering reactions depending on:
   - Who the instigator/receiver are. (Specific player, self, others, all)
   - How the instigator/receiver relate to you. (Eg. Friend/Party/Synced)
   - The status of the instigator/receiver (AFK, Busy, RPing etc)
-- Various state related conditions for triggering reactions
-- Display counter as an Honorific title/toast/echo message with custom template per trigger, or share counter with another trigger.
+  - Instigator's distance/angle relative to you
+  - Your animated state (Moving/Idle/Sitting/Emoting)
+- Display counter as an Honorific title/toast/echo message with custom template per trigger
 - Options for LookAt/Target when performing emote reactions.
 - Restore specific states when a reaction finishes (Eg. Continue performing a dance emote that the triggered event interrupted)
-- Discord activity events (display current song you're listening to as a title)
+- Discord activity events (Eg. Display current song you're listening to in Honorific title)
 - Preset triggers for easy setup (Hug counter, mimic emotes, spank reaction, discord spotify status)
-
-Upcoming Features:
-- Non-standard emote reactions (Stand & Sit/Sleep anywhere)
-- Condition for emote reactions to restrict performing reaction depending on instigator distance/angle from receiver
