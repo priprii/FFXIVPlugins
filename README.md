@@ -18,6 +18,9 @@ Then search `pyon` in your plugins list to find all the pyon plugins available.
 A tool for assisting with Gposing, adapted from [Ktisis](https://github.com/ktisis-tools/Ktisis)v0.3 with additional features:
 
 > [!NOTE]
+> I am currently moving most of these features to Ktisis
+
+> [!NOTE]
 > Click a feature to display preview/info.
 
 <details><summary>MCDF import (Mare Appearance)</summary><video src="https://github.com/user-attachments/assets/3e9fb3a2-0280-4d57-974f-88e4f8db865d"/></details>
@@ -55,7 +58,6 @@ Display names of enemy players in PvP, optionally limited to your friends so you
 
 Custom camera profiles, similar to [Cammy](https://github.com/UnknownX7/Cammy) with additional features:
 - IPC implementation for 'Camera Orbit' integration with TargetPyon
-- Simplified UI with preset bug fixes
 
 ### SoundPyon
 
@@ -69,7 +71,7 @@ https://github.com/user-attachments/assets/b0fe778a-4fe5-4051-b1cb-898ddaf95faf
 
 ### TargetPyon
 
-Similar to PeepingTom but better, displays names of players in a customizable overlay list who:
+Displays names of players in a customizable overlay list who:
 - Are currently targeting you
 - Previously targeted you (and their current target)
 - Targeting those who targeted you
@@ -81,7 +83,8 @@ Additional features:
 - Display direction of players from your facing direction.
 - Open Inspect & Adventure Plate windows without needing to target players
 - Interactions with listed players (Lock camera orbit, Target, Remove, Adventure Plate, Examine, Locate on map, Toggle visibility, Blacklist)
-- Toggle visibility of players who are not in party/friend list
+- Toggle visibility of players who are not in party/friend list (useful for gpose in populated areas)
+- List & toggle visibility of non-player objects
 
 https://github.com/user-attachments/assets/5e9968ad-f95a-44be-a265-0fd4a59d1a75
 
