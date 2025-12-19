@@ -19,7 +19,9 @@ A tool for assisting with Gposing, adapted from [Ktisis](https://github.com/ktis
 
 > [!NOTE]
 > Click a feature to display preview/info.
+> 
 > I am currently moving most of these features to Ktisis
+> 
 > Features prefixed with [Ktisis] are now (or soon) available in Ktisis
 
 <details><summary>[Ktisis] MCDF import (Mare Appearance)</summary><video src="https://github.com/user-attachments/assets/3e9fb3a2-0280-4d57-974f-88e4f8db865d"/></details>
