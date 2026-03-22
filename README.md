@@ -58,7 +58,12 @@ Display names of enemy players in PvP, optionally limited to your friends so you
 ### PyonCam
 
 Custom camera profiles, similar to [Cammy](https://github.com/UnknownX7/Cammy) with additional features:
-- IPC implementation for 'Camera Orbit' integration with TargetPyon
+- 'Camera Orbit' functionality with TargetPyon
+- 1st person PoV
+
+### PyonPix
+
+Spawn screens in world space that display browser media content, intended for having ingame movienights.
 
 ### SoundPyon
 
