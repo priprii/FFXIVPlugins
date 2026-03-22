@@ -102,7 +102,7 @@
 		"Description": "Spawn screens in the world to display media content.",
 		"Tags": [ "pyon", "pix", "media", "sync", "video", "audio", "image", "screen", "movie", "movienight" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "1.0.0.5",
+		"AssemblyVersion": "1.0.0.6",
 		"Changelog": "",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 14,
