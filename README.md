@@ -1,4 +1,4 @@
-*A collection of plugins maintained by Primu Pyon*
+*A collection of plugins maintained by Pyon*
 
 > [!NOTE]
 > These plugins are primarily developed for the PonPon cwls.
