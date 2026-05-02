@@ -83,7 +83,7 @@
 		"Description": "Configure presets for custom camera properties & features a freecam mode.",
 		"Tags": [ "cam", "camera", "pyon" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "2.1.5.2",
+		"AssemblyVersion": "2.1.5.3",
 		"Changelog": "Fixed LookAt Offset",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 15,
