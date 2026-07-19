@@ -7,7 +7,7 @@
 		"Description": "A multifaceted scene editor and posing tool for GPose. Pyon version includes some extra features (in process of moving to Ktisis).",
 		"Tags": [ "ktisis", "gpose", "pose", "posing", "pyon" ],
 		"CategoryTags": [ "utility" ],
-		"AssemblyVersion": "0.4.0.4",
+		"AssemblyVersion": "0.4.0.10",
 		"Changelog": "",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 15,
