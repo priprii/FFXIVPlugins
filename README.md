@@ -33,11 +33,11 @@ A tool for assisting with Gposing, adapted from [Ktisis](https://github.com/ktis
 <details><summary>Hi-res image output</summary><video src="https://github.com/user-attachments/assets/a0327b78-5944-4b85-89b9-98e2049a6ed9"/></details>
 <details><summary>[Ktisis] Toggle visibility of actor/light objects</summary><p><i>My cursor too shy for video, you toggle visibility with the icon to the left of the actor/light name. :3 The context menu is alternative way too.</i></p><video src="https://github.com/user-attachments/assets/e624210e-8f83-4773-8d1d-4be6ac824211"/></details>
 <details><summary>Toggle default visibility of groups/bones in overlay with Pose entity</summary><p><i>When you toggle overlay visibility with the 'Pose' entity, any group/bone you choose to hide will not be made visible. You can still make them visible by specifically toggling their visibility, useful for bones that you rarely or never touch.</i></p><video src="https://github.com/user-attachments/assets/d76fee6a-e46f-456d-8eac-63cc3ecb11d5"/></details>
-<details><summary>Skelomae/Nofflebone bone groups</summary><p><i>In addition to IVCS, groups for Skelomae/Nofflebones have been added so you can assign group colours, or hide them with the above visibility feature.</i></p></details>
-<details><summary>Camera options (work camera move speed/sensitivity, offset to target pose)</summary><video src="https://github.com/user-attachments/assets/47a637c6-29d4-4aa2-a4ef-df407d9f5af8"/></details>
-<details><summary>Gizmo scaling & customization</summary><video src="https://github.com/user-attachments/assets/bb714c4f-31d8-4ae3-aa08-0259ab75aecb"/></details>
+<details><summary>[Removed] Skelomae/Nofflebone bone groups</summary><p><i>In addition to IVCS, groups for Skelomae/Nofflebones have been added so you can assign group colours, or hide them with the above visibility feature.</i></p></details>
+<details><summary>Camera options (work camera move speed/sensitivity)</summary><video src="https://github.com/user-attachments/assets/47a637c6-29d4-4aa2-a4ef-df407d9f5af8"/></details>
+<details><summary>[Removed] Gizmo scaling & customization</summary><video src="https://github.com/user-attachments/assets/bb714c4f-31d8-4ae3-aa08-0259ab75aecb"/></details>
 <details><summary>Overlay customization & bug fixes</summary><video src="https://github.com/user-attachments/assets/0e8743f4-4fff-44b3-a1a9-173dad6de985"/></details>
-<details><summary>Adjust how overlay displays depending on active state of actors</summary><video src="https://github.com/user-attachments/assets/871af91f-922f-4701-b960-0e2ff872486a"/></details>
+<details><summary>[Ktisis] Adjust how overlay displays depending on active state of actors</summary><video src="https://github.com/user-attachments/assets/871af91f-922f-4701-b960-0e2ff872486a"/></details>
 
 ### PartyPyon
 
