@@ -1,0 +1,695 @@
+<Categories>
+	<Category Id="Head">
+		<Bones>
+			j_kao
+			j_kubi
+			j_head
+		</Bones>
+		<Category Id="Hair">
+			<Bones>
+				j_kami_a
+				j_kami_b
+				j_kami_f_l
+				j_kami_f_r
+			</Bones>
+			<Preset Name="Head" />
+			<Preset Name="Hair" />
+		</Category>
+		<Category Id="Ears">
+			<Category Id="LeftEar">
+				<Bones>
+					j_mimi_l
+					j_zera_a_l
+					j_zera_b_l
+					j_zerb_a_l
+					j_zerb_b_l
+					j_zerc_a_l
+					j_zerc_b_l
+					j_zerd_a_l
+					j_zerd_b_l
+					j_ear_l
+				</Bones>
+				<Preset Name="Head"/>
+			</Category>
+			<Category Id="RightEar">
+				<Bones>
+					j_mimi_r
+					j_zera_a_r
+					j_zera_b_r
+					j_zerb_a_r
+					j_zerb_b_r
+					j_zerc_a_r
+					j_zerc_b_r
+					j_zerd_a_r
+					j_zerd_b_r
+					j_ear_r
+				</Bones>
+				<Preset Name="Head"/>
+			</Category>
+			<Preset Name="Head"/>
+		</Category>
+		<Category Id="Face">
+			<Bones>
+				j_face
+				j_f_face
+			</Bones>
+			<Category Id="Brow">
+				<Category Id="LeftBrow">
+					<Bones>
+						j_f_miken_l
+						j_f_mayu_l
+						j_f_mmayu_l
+						j_f_miken_01_l
+						j_f_miken_02_l
+					</Bones>
+					<Preset Name="Face"/>
+				</Category>
+				<Category Id="RightBrow">
+					<Bones>
+						j_f_miken_r
+						j_f_mayu_r
+						j_f_mmayu_r
+						j_f_miken_01_r
+						j_f_miken_02_r
+					</Bones>
+					<Preset Name="Face"/>
+				</Category>
+			</Category>
+			<Category Id="Eyes">
+				<Bones>
+					j_f_eyeprm_01_l
+					j_f_eyeprm_01_r
+					j_f_eyeprmroll_l
+					j_f_eyeprmroll_r
+					j_f_eyeprm_02_l
+					j_f_eyeprm_02_r
+					j_f_irisprm_l
+					j_f_irisprm_r
+					j_f_noanim_eyesize_l
+					j_f_noanim_eyesize_r
+				</Bones>
+				<Preset Name="Face"/>
+				<Preset Name="Eyes"/>
+				<Category Id="LeftEye">
+					<Bones>
+						j_f_eye_l
+						j_f_eyepuru_l
+						j_f_mab_l
+					</Bones>
+					<Preset Name="Face"/>
+					<Preset Name="Eyes"/>
+					<Category Id="LeftEyelid">
+						<Bones>
+							j_f_umab_l
+							j_f_dmab_l
+							j_f_mabup_01_l
+							j_f_mabdn_01_l
+							j_f_mabup_02out_l
+							j_f_mabdn_02out_l
+							j_f_mabup_03in_l
+							j_f_mabdn_03in_l
+						</Bones>
+						<Preset Name="Face"/>
+						<Preset Name="Eyes"/>
+					</Category>
+				</Category>
+				<Category Id="RightEye">
+					<Bones>
+						j_f_eye_r
+						j_f_eyepuru_r
+						j_f_mab_r
+					</Bones>
+					<Preset Name="Face"/>
+					<Preset Name="Eyes"/>
+					<Category Id="RightEyelid">
+						<Bones>
+							j_f_umab_r
+							j_f_dmab_r
+							j_f_mabup_01_r
+							j_f_mabdn_01_r
+							j_f_mabup_02out_r
+							j_f_mabdn_02out_r
+							j_f_mabup_03in_r
+							j_f_mabdn_03in_r
+						</Bones>
+						<Preset Name="Face"/>
+						<Preset Name="Eyes"/>
+					</Category>
+				</Category>
+			</Category>
+			<Category Id="Nose">
+				<Bones>
+					j_f_hana
+					j_f_memoto
+					j_f_uhana
+					j_f_hana_l
+					j_f_hana_r
+				</Bones>
+				<Preset Name="Face"/>
+			</Category>
+			<Category Id="Cheeks">
+				<Category Id="LeftCheek">
+					<Bones>
+						j_f_hoho_l
+						j_f_dhoho_l
+						j_f_shoho_l
+						j_f_dmemoto_l
+					</Bones>
+					<Preset Name="Face"/>
+				</Category>
+				<Category Id="RightCheek">
+					<Bones>
+						j_f_hoho_r
+						j_f_dhoho_r
+						j_f_shoho_r
+						j_f_dmemoto_r
+					</Bones>
+					<Preset Name="Face"/>
+				</Category>
+			</Category>
+			<Category Id="Mouth">
+				<Bones>
+					j_ago
+					j_f_lip_l
+					j_f_lip_r
+				</Bones>
+				<Preset Name="Face"/>
+				<Category Id="UpperMouth">
+					<Bones>
+						j_f_hagukiup
+					</Bones>
+					<Preset Name="Face"/>
+					<Category Id="UpperLip">
+						<Bones>
+							j_f_ulip_a
+							j_f_ulip_b
+							j_f_ulip_01_l
+							j_f_ulip_02_l
+							j_f_ulip_01_r
+							j_f_ulip_02_r
+							j_f_umlip_01_l
+							j_f_umlip_02_l
+							j_f_umlip_01_r
+							j_f_umlip_02_r
+							j_f_uslip_l
+							j_f_uslip_r
+						</Bones>
+						<Preset Name="Face"/>
+					</Category>
+				</Category>
+				<Category Id="LowerMouth">
+					<Bones>
+						j_f_ago
+						j_f_dago
+						j_f_hagukidn
+					</Bones>
+					<Preset Name="Face"/>
+					<Category Id="LowerLip">
+						<Bones>
+							j_f_dlip_a
+							j_f_dlip_b
+							j_f_dlip_01_l
+							j_f_dlip_02_l
+							j_f_dlip_01_r
+							j_f_dlip_02_r
+							j_f_dmlip_01_l
+							j_f_dmlip_02_l
+							j_f_dmlip_01_r
+							j_f_dmlip_02_r
+							j_f_dslip_l
+							j_f_dslip_r
+						</Bones>
+						<Preset Name="Face"/>
+					</Category>
+				</Category>
+				<Category Id="Tongue">
+					<Bones>
+						j_f_bero_01
+						j_f_bero_02
+						j_f_bero_03
+					</Bones>
+					<Preset Name="Face"/>
+				</Category>
+			</Category>
+		</Category>
+		<Preset Name="Head" />
+		<Preset Name="Face" />
+	</Category>
+	<Category Id="Body">
+		<Category Id="Arms">
+            <Category Id="CustomArms">
+                <Bones>
+                    iv_nitoukin_r
+                    iv_nitoukin_l
+                </Bones>
+            </Category>
+			<Category Id="LeftArm">
+				<Bones>
+					j_sako_l
+					j_ude_a_l
+					j_ude_b_l
+					n_hkata_l
+					n_hhiji_l
+					iv_nitoukin_l
+				</Bones>
+				<Preset Name="Arms" />
+				<Category Id="LeftHand">
+					<TwoJointsIK Type="Arm">
+						<FirstBone>j_ude_a_l</FirstBone>
+						<FirstTwist>n_hkata_l</FirstTwist>
+						<SecondBone>j_ude_b_l</SecondBone>
+						<SecondTwist>n_hhiji_l</SecondTwist>
+						<EndBone>j_te_l</EndBone>
+						<EndBone>j_hand_l</EndBone>
+					</TwoJointsIK>
+					<Bones>
+						j_hito_a_l
+						j_ko_a_l
+						j_kusu_a_l
+						j_naka_a_l
+						j_oya_a_l
+						j_hito_b_l
+						j_ko_b_l
+						j_kusu_b_l
+						j_naka_b_l
+						j_oya_b_l
+						j_te_l
+						n_hte_l
+						j_hand_l
+					</Bones>
+					<Preset Name="Hands" /> 
+					<Category Id="LeftHandIvcs">
+						<Bones>
+							iv_ko_c_l
+							iv_kusu_c_l
+							iv_naka_c_l
+							iv_hito_c_l
+						</Bones>
+						<Preset Name="Hands (Custom)" />
+					</Category>
+				</Category>
+			</Category>
+			<Category Id="RightArm">
+				<Bones>
+					j_sako_r
+					j_ude_a_r
+					j_ude_b_r
+					n_hkata_r
+					n_hhiji_r
+					iv_nitoukin_r
+				</Bones>
+				<Preset Name="Arms" />
+				<Category Id="RightHand">
+					<TwoJointsIK Type="Arm">
+						<FirstBone>j_ude_a_r</FirstBone>
+						<FirstTwist>n_hkata_r</FirstTwist>
+						<SecondBone>j_ude_b_r</SecondBone>
+						<SecondTwist>n_hhiji_r</SecondTwist>
+						<EndBone>j_te_r</EndBone>
+						<EndBone>j_hand_r</EndBone>
+					</TwoJointsIK>
+					<Bones>
+						j_hito_a_r
+						j_ko_a_r
+						j_kusu_a_r
+						j_naka_a_r
+						j_oya_a_r
+						j_hito_b_r
+						j_ko_b_r
+						j_kusu_b_r
+						j_naka_b_r
+						j_oya_b_r
+						j_te_r
+						n_hte_r
+						j_hand_r
+					</Bones>
+					<Preset Name="Hands"/>
+					<Category Id="RightHandIvcs">
+						<Bones>
+							iv_ko_c_r
+							iv_kusu_c_r
+							iv_naka_c_r
+							iv_hito_c_r
+						</Bones>
+						<Preset Name="Hands (Custom)" />
+					</Category>
+				</Category>
+			</Category>
+		</Category>
+		<Category Id="Spine">
+			<Bones>
+				n_hara
+				j_kosi
+				j_sebo_a
+				j_sebo_b
+				j_sebo_c
+			</Bones>
+			<Preset Name="Body"/>
+			<Category Id="SkelomaeWings">
+				<Category Id="SkelomaeWingsLeft">
+					<Bones>
+						mkl_wingbase_l
+						mkl_wingarm_a_l
+						mkl_wingarm_b_l
+						mkl_wingarm_c_l
+						mkl_wingarm_d_l
+					</Bones>
+				</Category>
+				<Category Id="SkelomaeWingsRight">
+					<Bones>
+						mkl_wingbase_r
+						mkl_wingarm_a_r
+						mkl_wingarm_b_r
+						mkl_wingarm_c_r
+						mkl_wingarm_d_r
+					</Bones>
+				</Category>
+			</Category>
+			<Category Id="Breasts">
+				<Preset Name="Body"/>
+				<Bones>
+					j_mune_l
+					j_mune_r
+				</Bones>
+				<Category Id="BreastsIvcs">
+					<Preset Name="Body (Custom)" />
+					<Bones>
+						iv_c_mune_l
+						iv_c_mune_r
+                        iv_kyokin_phys_l
+                        iv_kyokin_phys_r
+					</Bones>
+				</Category>
+			</Category>
+			<Category Id="SkelomaeCreatures">
+				<Category Id="SkelomaeCreaturesLamia">
+					<Category Id="SkelomaeCreaturesGenetals" IsNsfw="true">
+						<Bones>
+							lamia_clucoa_l
+							lamia_clucoa_r
+						</Bones>
+					</Category>
+					<Bones>
+						lamia_a
+						lamia_b
+						lamia_c
+						lamia_d
+						lamia_e
+						lamia_f
+						lamia_g
+						lamia_h
+						lamia_i
+						lamia_j
+						lamia_k
+						lamia_l
+						lamia_m
+						lamia_n
+						lamia_o
+						lamia_p
+						lamia_q
+						lamia_r
+						lamia_s
+						lamia_t
+						lamia_u
+					</Bones>
+				</Category>
+				<Category Id="SkelomaeCreaturesCentaur">
+					<Category Id="SkelomaeCreaturesCentaurBody">
+						<Bones>
+							rf_centaur_body
+							rf_centaur_hip
+							rf_centaur_shoulder_f_l
+							rf_centaur_shoulder_f_r
+						</Bones>
+					</Category>
+					<Category Id="SkelomaeCreaturesCentaurTail">
+						<Bones>
+							rf_centaur_tail_a
+							rf_centaur_tail_b
+							rf_centaur_tail_c
+							rf_centaur_tail_d
+						</Bones>
+					</Category>
+					<Category Id="SkelomaeCreaturesCentaurBodyFrontLegs">
+						<Bones>
+							rf_centaur_farm_a_l
+							rf_centaur_farm_b_l
+							rf_centaur_farm_c_l
+							rf_centaur_farm_d_l
+							rf_centaur_farm_e_l
+							rf_centaur_farm_a_r
+							rf_centaur_farm_b_r
+							rf_centaur_farm_c_r
+							rf_centaur_farm_d_r
+							rf_centaur_farm_e_r
+						</Bones>
+					</Category>
+					<Category Id="SkelomaeCreaturesCentaurBodyBackLegs">
+						<Bones>
+							rf_centaur_bleg_a_l
+							rf_centaur_bleg_b_l
+							rf_centaur_bleg_c_l
+							rf_centaur_bleg_d_l
+							rf_centaur_bleg_e_l
+							rf_centaur_bleg_a_r
+							rf_centaur_bleg_b_r
+							rf_centaur_bleg_c_r
+							rf_centaur_bleg_d_r
+							rf_centaur_bleg_e_r
+						</Bones>
+					</Category>
+				</Category>
+			</Category>
+            <Category Id="CustomAbdomen">
+                <Bones>
+                    iv_fukubu_phys
+					ya_fukubu_phys
+                    iv_fukubu_phys_l
+                    iv_fukubu_phys_r
+                </Bones>
+            </Category>
+		</Category>
+		<Category Id="Legs">
+            <Category id="CustomLegs">
+                <Bones>
+                    iv_daitai_phys_l
+                    iv_daitai_phys_r
+                    ya_daitai_phys_l
+                    ya_daitai_phys_r
+                </Bones>
+            </Category>
+			<Category Id="LeftLeg">
+				<Bones>
+					j_asi_a_l
+					j_asi_b_l
+					j_asi_c_l
+				</Bones>
+				<Preset Name="Body" />
+				<Category Id="LeftFoot">
+					<TwoJointsIK Type="Leg">
+						<FirstBone>j_asi_a_l</FirstBone>
+						<SecondBone>j_asi_b_l</SecondBone>
+						<SecondTwist>j_asi_c_l</SecondTwist>
+						<EndBone>j_asi_d_l</EndBone>
+						<EndBone>j_foot_l</EndBone>
+					</TwoJointsIK>
+					<Bones>
+						j_asi_d_l
+						j_asi_e_l
+						j_foot_l
+					</Bones>
+					<Preset Name="Feet"/>
+					<Category Id="LeftFootIvcs">
+						<Bones>
+							iv_asi_oya_a_l
+							iv_asi_oya_b_l
+							iv_asi_hito_a_l
+							iv_asi_hito_b_l
+							iv_asi_naka_a_l
+							iv_asi_naka_b_l
+							iv_asi_kusu_a_l
+							iv_asi_kusu_b_l
+							iv_asi_ko_a_l
+							iv_asi_ko_b_l
+						</Bones>
+						<Preset Name="Feet (Custom)" />
+					</Category>
+				</Category>
+			</Category>
+			<Category Id="RightLeg">
+				<Bones>
+					j_asi_a_r
+					j_asi_b_r
+					j_asi_c_r
+				</Bones>
+				<Preset Name="Body" />
+				<Category Id="RightFoot">
+					<TwoJointsIK Type="Leg">
+						<FirstBone>j_asi_a_r</FirstBone>
+						<SecondBone>j_asi_b_r</SecondBone>
+						<SecondTwist>j_asi_c_r</SecondTwist>
+						<EndBone>j_asi_d_r</EndBone>
+						<EndBone>j_foot_r</EndBone>
+					</TwoJointsIK>
+					<Bones>
+						j_asi_d_r
+						j_asi_e_r
+						j_foot_r
+					</Bones>
+					<Preset Name="Feet" />
+					<Category Id="RightFootIvcs">
+						<Bones>
+							iv_asi_oya_a_r
+							iv_asi_oya_b_r
+							iv_asi_hito_a_r
+							iv_asi_hito_b_r
+							iv_asi_naka_a_r
+							iv_asi_naka_b_r
+							iv_asi_kusu_a_r
+							iv_asi_kusu_b_r
+							iv_asi_ko_a_r
+							iv_asi_ko_b_r
+						</Bones>
+						<Preset Name="Feet (Custom)" />
+					</Category>
+				</Category>
+			</Category>
+		</Category>
+		<Category Id="GenitalsIvcs" IsNsfw="true">
+			<Category Id="PenisIvcs" IsNsfw="true">
+				<CcdIK>
+					<StartBone>iv_ochinko_a</StartBone>
+					<EndBone>iv_ochinko_f</EndBone>
+				</CcdIK>
+				<Bones>
+					iv_kougan_l
+					iv_kougan_r
+					iv_ochinko_a
+					iv_ochinko_b
+					iv_ochinko_c
+					iv_ochinko_d
+					iv_ochinko_e
+					iv_ochinko_f
+					j_penis
+					j_balls
+                    iv_funyachin_phy_a
+                    iv_funyachin_phy_b
+                    iv_funyachin_phy_c
+                    iv_funyachin_phy_d
+                    iv_kintama_phys_l
+                    iv_kintama_phys_r
+				</Bones>
+				<Preset Name="Body (Custom)" />
+			</Category>
+			<Category Id="VaginaIvcs" IsNsfw="true">
+				<Bones>
+					iv_omanko
+					iv_kuritto
+					iv_inshin_l
+					iv_inshin_r
+				</Bones>
+				<Preset Name="Body (Custom)" />
+			</Category>
+		</Category>
+		<Category Id="BottomIvcs" IsNsfw="true">
+			<Bones>
+				iv_koumon
+				iv_koumon_l
+				iv_koumon_r
+				iv_shiri_l
+				iv_shiri_r
+                ya_shiri_phys_l
+                ya_shiri_phys_r
+			</Bones>
+			<Preset Name="Body (Custom)" />
+		</Category>
+	</Category>
+	<Category Id="Tail">
+		<CcdIK>
+			<StartBone>n_sippo_a</StartBone>
+			<EndBone>n_sippo_e</EndBone>
+			<EndBone>j_tail</EndBone>
+		</CcdIK>
+		<Bones>
+			n_sippo_a
+			n_sippo_b
+			n_sippo_c
+			n_sippo_d
+			n_sippo_e
+			j_tail
+		</Bones>
+		<Preset Name="Tail" />
+		<Preset Name="Body" />
+	</Category>
+	<Category Id="Clothing">
+		<Bones>
+			n_hizasoubi_l
+			n_hizasoubi_r
+			n_kataarmor_l
+			n_kataarmor_r
+			n_hijisoubi_l
+			n_hijisoubi_r
+			j_ex_top_a_r
+			j_ex_top_a_l
+			j_ex_top_b_r
+			j_ex_top_b_l
+			j_ex_met_a
+			j_ex_met_b
+			j_ex_met_c
+			j_ex_met_d
+			j_ex_met_va
+			j_ex_met_vb
+		</Bones>
+		<Preset Name="Clothing"/>
+		<Category Id="Cloth">
+			<Bones>
+				j_sk_b_b_l
+				j_sk_b_b_r
+				j_sk_f_b_l
+				j_sk_f_b_r
+				j_sk_s_b_l
+				j_sk_s_b_r
+				j_sk_b_a_l
+				j_sk_b_a_r
+				j_sk_f_a_l
+				j_sk_f_a_r
+				j_sk_s_a_l
+				j_sk_s_a_r
+				j_sk_b_c_l
+				j_sk_b_c_r
+				j_sk_f_c_l
+				j_sk_f_c_r
+				j_sk_s_c_l
+				j_sk_s_c_r
+			</Bones>
+			<Preset Name="Clothing"/>
+		</Category>
+		<Category Id="Earring">
+			<Bones>
+				n_ear_a_l
+				n_ear_a_r
+				n_ear_b_l
+				n_ear_b_r
+			</Bones>
+			<Preset Name="Clothing"/>
+			<Preset Name="Earrings"/>
+		</Category>
+	</Category>
+	<Category Id="Weapons">
+		<Bones>
+			j_buki_sebo_l
+			j_buki_sebo_r
+			j_buki2_kosi_l
+			j_buki2_kosi_r
+			j_buki_kosi_l
+			j_buki_kosi_r
+			n_buki_r
+			n_buki_l
+			n_buki_tate_l
+			n_buki_tate_r
+		</Bones>
+		<Preset Name="Weapons" />
+	</Category>
+	<Category Id="Other" IsDefault="true">
+	</Category>
+</Categories>

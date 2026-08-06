@@ -1,0 +1,12 @@
+namespace Ktisis.Editor.Posing.Types;
+
+public class PartialBoneInfo
+{
+	public string Name = string.Empty;
+
+	public int BoneIndex;
+
+	public int ParentIndex;
+
+	public int PartialIndex;
+}

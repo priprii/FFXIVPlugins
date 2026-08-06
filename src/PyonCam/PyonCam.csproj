@@ -1,0 +1,10 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <AssemblyName>PyonCam</AssemblyName>
+    <Version>2.1.5.5</Version>
+    <Description>Camera presets, freecam &amp; PoV.</Description>
+    <PackageProjectUrl>https://github.com/priprii/FFXIVPlugins</PackageProjectUrl>
+    <Authors>Pyon</Authors>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+</Project>

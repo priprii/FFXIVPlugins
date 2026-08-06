@@ -1,0 +1,17 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <AssemblyName>TargetPyon</AssemblyName>
+    <Version>1.0.8.0</Version>
+    <Description>Track who is targeting you in an overlay list.</Description>
+    <PackageProjectUrl>https://github.com/priprii/FFXIVPlugins</PackageProjectUrl>
+    <Authors>Pyon</Authors>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Only the Core + Wasapi pieces are actually used; avoids pulling in the full
+         NAudio meta-package (Asio/Midi/WinForms/WinMM), matching the original build. -->
+    <PackageReference Include="NAudio.Core" Version="2.2.1" />
+    <PackageReference Include="NAudio.Wasapi" Version="2.2.1" />
+  </ItemGroup>
+</Project>

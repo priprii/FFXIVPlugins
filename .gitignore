@@ -1,0 +1,5 @@
+**/obj/
+**/[Bb]in/[Dd]ebug/
+**/[Bb]in/[Rr]elease/
+.vs/
+*.user

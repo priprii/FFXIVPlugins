@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../../external/Glamourer.Api/Glamourer.Api.csproj" />
+  <Project Path="../../external/GLib/GLib/GLib.csproj" />
+  <Project Path="../../external/KamiToolKit/KamiToolKit.csproj" />
+  <Project Path="../../external/Penumbra.Api/Penumbra.Api.csproj" />
+  <Project Path="KtisisPyon/KtisisPyon.csproj" />
+</Solution>

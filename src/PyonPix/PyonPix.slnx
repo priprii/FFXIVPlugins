@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="PyonPix.Mediator/PyonPix.Mediator.csproj" />
+  <Project Path="PyonPix.Shared/PyonPix.Shared.csproj" />
+  <Project Path="PyonPix/PyonPix.csproj" />
+</Solution>

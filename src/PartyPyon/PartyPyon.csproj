@@ -1,0 +1,14 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <AssemblyName>PartyPyon</AssemblyName>
+    <Version>1.0.5.0</Version>
+    <Description>Automatically recreate party finder listing.</Description>
+    <PackageProjectUrl>https://github.com/priprii/FFXIVPlugins</PackageProjectUrl>
+    <Authors>Pyon</Authors>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ECommons" Version="3.2.0.9" />
+  </ItemGroup>
+</Project>

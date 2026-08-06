@@ -1,0 +1,10 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <AssemblyName>PvPyon</AssemblyName>
+    <Version>1.0.0.2</Version>
+    <Description>Now you can see the names of people bullying you in pvp.</Description>
+    <PackageProjectUrl>https://github.com/priprii/FFXIVPlugins</PackageProjectUrl>
+    <Authors>Pyon</Authors>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+</Project>

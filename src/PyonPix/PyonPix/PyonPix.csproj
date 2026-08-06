@@ -1,0 +1,46 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <AssemblyName>PyonPix</AssemblyName>
+    <Version>1.4.0.2</Version>
+    <Description>Spawn screens in the world to display media content.</Description>
+    <PackageProjectUrl>https://github.com/priprii/FFXIVPlugins</PackageProjectUrl>
+    <Authors>Pyon</Authors>
+    <IsPackable>false</IsPackable>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="PyonPix.Shaders.psavg.cso" />
+    <None Remove="PyonPix.Shaders.psmain.cso" />
+    <None Remove="PyonPix.Shaders.vsavg.cso" />
+    <None Remove="PyonPix.Shaders.vsmain.cso" />
+    <EmbeddedResource Include="PyonPix.Shaders.psavg.cso" LogicalName="PyonPix.Shaders.psavg.cso" />
+    <EmbeddedResource Include="PyonPix.Shaders.psmain.cso" LogicalName="PyonPix.Shaders.psmain.cso" />
+    <EmbeddedResource Include="PyonPix.Shaders.vsavg.cso" LogicalName="PyonPix.Shaders.vsavg.cso" />
+    <EmbeddedResource Include="PyonPix.Shaders.vsmain.cso" LogicalName="PyonPix.Shaders.vsmain.cso" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PyonPix.Shared\PyonPix.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- SharpDX is unmaintained/deprecated but still the exact interop surface this
+         plugin's D3D11 texture-sharing code was written against; keep pinned to 4.2.0. -->
+    <PackageReference Include="SharpDX" Version="4.2.0" />
+    <PackageReference Include="SharpDX.D3DCompiler" Version="4.2.0" />
+    <PackageReference Include="SharpDX.DXGI" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Direct3D11" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Mathematics" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- The Mediator exe (and its native PyonPix.Browser.dll companion) is launched
+         as a child process at runtime; ship its published output alongside the plugin. -->
+    <ProjectReference Include="..\PyonPix.Mediator\PyonPix.Mediator.csproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <OutputItemType>Content</OutputItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

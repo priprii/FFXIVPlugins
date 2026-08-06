@@ -1,0 +1,10 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <AssemblyName>PartyRangePyon</AssemblyName>
+    <Version>1.0.0.2</Version>
+    <Description>Display distance from party members in party list.</Description>
+    <PackageProjectUrl>https://github.com/priprii/FFXIVPlugins</PackageProjectUrl>
+    <Authors>Pyon</Authors>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+</Project>

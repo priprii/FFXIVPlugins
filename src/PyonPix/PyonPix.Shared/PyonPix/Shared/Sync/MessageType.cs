@@ -1,0 +1,50 @@
+using System.Text.Json.Serialization;
+
+namespace PyonPix.Shared.Sync;
+
+[JsonConverter(typeof(JsonStringEnumConverter))]
+public enum MessageType
+{
+	Ping,
+	Pong,
+	AuthRequired,
+	AuthRequest,
+	AuthCreateSuccess,
+	AuthLoginSuccess,
+	AuthFailed,
+	StyleUpdate,
+	StyleUpdateSuccess,
+	StyleUpdateFailed,
+	SyncedPixCreate,
+	SyncedPixCreateSuccess,
+	SyncedPixCreateFailed,
+	SubbedPixQueryResponse,
+	SubbedPixStyleUpdated,
+	SyncedPixUpdate,
+	SyncedPixQueryRequest,
+	SyncablePixQueryResponse,
+	SyncedPixSubscribe,
+	SyncedPixSubscribeSuccess,
+	SyncedPixSubscribeFailed,
+	SyncedPixUnsubscribe,
+	SyncedPixUnsubscribeSuccess,
+	SyncedPixUnsubscribeFailed,
+	SyncedPixDelete,
+	SyncedPixDeleteSuccess,
+	SyncedPixDeleteFailed,
+	SyncedPixDeleted,
+	ClientTerritoryUpdate,
+	SyncedPixMembersRequest,
+	SyncedPixMembersUpdate,
+	PremiumStatusChanged,
+	PixMemberChangeRank,
+	PixMemberChangeRankSuccess,
+	PixMemberChangeRankFailed,
+	PixMemberRemove,
+	PixMemberRemoveSuccess,
+	PixMemberRemoveFailed,
+	ReportPix,
+	ReportUser,
+	SyncMediaState,
+	SyncMediaStateResponse
+}

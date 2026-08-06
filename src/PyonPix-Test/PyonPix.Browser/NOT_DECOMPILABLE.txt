@@ -1,0 +1,4 @@
+PyonPix.Browser.dll is a native (unmanaged) PE32+ DLL — it is the CEF (Chromium
+Embedded Framework) host/loader shim, not a .NET assembly. ILSpy cannot decompile
+it because it contains no managed metadata. Inspect it with a native disassembler
+(e.g. Ghidra/IDA) if needed.

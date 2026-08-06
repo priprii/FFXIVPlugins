@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Standalone out-of-process mediator executable (spawned by the PyonPix plugin,
+    likely to host the CEF/Chromium browser surface). No Dalamud dependency.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>PyonPix.Mediator</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <Version>1.0.0.0</Version>
+    <PackageProjectUrl>https://github.com/priprii/FFXIVPlugins</PackageProjectUrl>
+    <Authors>Pyon</Authors>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PyonPix.Shared\PyonPix.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--
+      PyonPix.Browser.dll is a native (unmanaged) PE32+ module — the CEF/Chromium
+      host shim — not a .NET assembly. It can't be decompiled or recompiled from
+      source; it's kept as a prebuilt binary shipped next to the mediator exe.
+      See PyonPix.Browser/NOT_DECOMPILABLE.txt for details.
+    -->
+    <Content Include="..\PyonPix.Browser\PyonPix.Browser.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>PyonPix.Browser.dll</Link>
+    </Content>
+  </ItemGroup>
+</Project>

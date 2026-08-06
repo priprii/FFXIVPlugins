@@ -1,0 +1,10 @@
+using System.Collections.Generic;
+
+namespace Ktisis.Data.Config.Bones;
+
+public class CcdGroupParams
+{
+	public List<string> StartBone = new List<string>();
+
+	public List<string> EndBone = new List<string>();
+}

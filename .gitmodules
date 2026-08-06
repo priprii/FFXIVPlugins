@@ -1,0 +1,12 @@
+[submodule "external/Penumbra.Api"]
+	path = external/Penumbra.Api
+	url = https://github.com/Ottermandias/Penumbra.Api.git
+[submodule "external/Glamourer.Api"]
+	path = external/Glamourer.Api
+	url = https://github.com/Ottermandias/Glamourer.Api.git
+[submodule "external/KamiToolKit"]
+	path = external/KamiToolKit
+	url = https://github.com/MidoriKami/KamiToolKit.git
+[submodule "external/GLib"]
+	path = external/GLib
+	url = https://github.com/ktisis-tools/GLib.git

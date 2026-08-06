@@ -1,0 +1,1502 @@
+{
+	"$meta": {
+		"displayName": "English",
+		"selfName": "English",
+		"__comment": "Using null element to signal 'et al' in the array below. Don't do this for your own localization.",
+		"maintainers": [
+			"@chirpxiv",
+			null
+		]
+	},
+
+	"actions": {
+		"Select_None": "Cancel selection",
+		"Select_Sibling": "Sibling select",
+		"Select_Children": "Children select",
+		"Select_All": "Select all entities",
+		"Overlay_Toggle": "Toggle overlay visibility",
+		"History_Undo": "Undo action",
+		"History_Redo": "Redo action",
+		"Gizmo_Toggle": "Toggle gizmo visibility",
+		"Gizmo_ToggleMode": "Toggle world/local modes",
+		"Gizmo_SetTranslateMode": "Switch to position mode",
+		"Gizmo_SetRotateMode": "Switch to rotate mode",
+		"Gizmo_SetScaleMode": "Switch to scale mode",
+		"Gizmo_SetUniversalMode": "Switch to universal mode",
+		"Camera_SetNext": "Switch to next camera",
+		"Camera_SetPrevious": "Switch to previous camera",
+		"Camera_Work_Toggle": "Toggle work camera",
+		"Camera_Work_Forward": "Work camera forward",
+		"Camera_Work_Left": "Work camera left",
+		"Camera_Work_Back": "Work camera backward",
+		"Camera_Work_Right": "Work camera right",
+		"Camera_Work_Up": "Work camera up",
+		"Camera_Work_Down": "Work camera down",
+		"Camera_Work_Fast": "Work camera fast-speed modifier",
+		"Camera_Work_Slow": "Work camera slow-speed modifier",
+		"Output_HiRes_Toggle": "Toggle hi-res mode",
+		"Pose_FlipPose": "Flip pose",
+		"Gizmo_MirrorRotation": "Cycle rotation modes",
+		"Toolbar_ToggleWorkspace": "Switch to the Workspace Window",
+		"Toolbar_ToggleObject": "Switch to the Object Editor",
+		"Toolbar_ToggleActor": "Switch to the Actor Editor",
+		"Toolbar_TogglePose": "Switch to Pose View",
+		"Toolbar_ToggleEnv": "Switch to the Environment Editor",
+		"Toolbar_ToggleCamera": "Switch to the Camera Editor",
+		"Toolbar_ToggleConfig": "Switch to the Configuration Window",
+		"Scene_RefreshEntities": "Refresh scene entities"
+	},
+	
+	"actors": {
+		"pos_lock": "Freeze actor positions"
+	},
+	
+	"cameras": {
+		"main": "Main Camera",
+		"work": "Work Camera",
+		"camera": "Camera",
+		"new": "New Camera",
+		"selector": {
+			"create": "Create new camera",
+			"delete": "Delete camera",
+			"edit": "Edit camera",
+			"edit_can_delete": "(or hold Shift to delete)"
+		}
+	},
+	
+	"common": {
+		"options": "Options",
+		"appearance": "Appearance",
+		"equipment": "Equipment",
+		"unknown": "Unknown",
+		"hide": "Hide",
+		"show": "Show",
+		"entity": "Entity",
+		"chara_parts": {
+			"body": "Body",
+			"face": "Face",
+			"hair": "Hair",
+			"gear": "Gear",
+			"accessories": "Accessories",
+			"weapons": "Weapons"
+		},
+		"rotation": "Rotation",
+		"position": "Position",
+		"scale": "Scale"
+	},
+	
+	"context": {
+		"select": "Select",
+		"unselect": "Unselect"
+	},
+	
+	"transform": {
+		"position": "Position",
+		"rotation": "Rotation\nHold shift to toggle screen orbit.",
+		"scale": "Scale"
+	},
+	
+	"file": {
+		"import": "Import...",
+		"export": "Export...",
+		"select": "Select a file to open...",
+		"chara": {
+			"name": "Character (.chara)",
+			"ctx_import": "Import appearance...",
+			"ctx_export": "Export appearance...",
+			"file": "File",
+			"apply": "Apply on selection"
+		},
+		"pose": {
+			"name": "Pose File (.pose)",
+			"ctx_import": "Import pose...",
+			"ctx_import.group": "Import group...",
+			"ctx_import.select": "Import selected...",
+			"ctx_export": "Export pose..."
+		},
+		"dialog": {
+			"chara": {
+				"filter": "Character Files",
+				"load": "Open Chara File",
+				"save": "Save Chara File"
+			},
+			"pose": {
+				"filter": "Pose Files",
+				"load": "Open Pose File",
+				"save": "Save Pose File"
+			},
+			"light": {
+				"filter": "Light Files",
+				"load": "Open Light File",
+				"save": "Save Light File"
+			},
+			"mcdf": {
+				"filter": "MCDF Files",
+				"load": "Open MCDF File"
+			},
+			"image.load": "Import Reference Image"
+		}
+	},
+
+	"workspace": {
+		"title": "KtisisPyon Workspace",
+		"state": {
+			"dormant": "Waiting for scene...",
+			"select_count": {
+				"single": "%target% + %count% other",
+				"plural": "%target% + %count% others",
+				"none": "No selections."
+			}
+		},
+		"posing": {
+			"toggle": {
+				"enable": "Posing Enabled",
+				"enable-blocked": "Posing Enabled, hold SHIFT & click to disable.",
+				"disable": "Posing Disabled"
+			},
+			"hint": {
+				"enable": "Bone manipulation is currently enabled.",
+				"enable-blocked": "To disable, hold SHIFT.",
+				"disable": "Bone manipulation is currently disabled."
+			}
+		},
+		"scene_tree": {
+			"attached_to": "Attached to",
+			"reset_tooltip": "Click to reset attachment\nClick+Drag to set new attachment"
+		},
+		"create_menu": {
+			"actor": {
+				"create": "Create new actor",
+				"file": "Import actor from file",
+				"mcdf": "Import actor from MCDF",
+				"overworld": "Add overworld actor"
+			},
+			"light": {
+				"create": "Create new light",
+				"point": "Point",
+				"spot": "Spot",
+				"area": "Area",
+				"directional": "Sun (Directional)",
+				"file": "From file... (.ktlight)"
+			},
+			"reference": "Add reference image"
+		},
+		"entity_menu": {
+			"base": {
+				"select": "Select",
+				"deselect": "Unselect",
+				"hierarchy": "Select hierarchy",
+				"presets": "Presets...",
+				"presets_save": "Save New",
+				"detach": "Detach",
+				"rename": "Rename",
+				"duplicate": "Duplicate",
+				"delete": "Delete"
+			},
+			"actor": {
+				"target": "Target",
+				"edit": "Edit appearance",
+				"import": "Import...",
+				"export": "Export...",
+				"chara": "Character (.chara)",
+				"npc": "NPC",
+				"pose": "Pose file (.pose)",
+				"mcdf": "Mare data (.mcdf)"
+			},
+			"ipc": {
+				"submenu": "IPC appearance",
+				"penumbra": {
+					"collection": "Penumbra: Assign collection",
+					"invisible_skin": "Penumbra: Invisible skin"
+				},
+				"glamourer": {
+					"design": "Glamourer: Apply design"
+				},
+				"customize": {
+					"profile": "Customize: Assign profile"
+				},
+				"revert": "Revert all IPC data"
+			},
+			"pose": {
+				"import": "Import pose",
+				"export": "Export pose",
+				"reference": "Set to reference pose"
+			},
+			"light": {
+				"edit": "Edit lighting",
+				"import": "Import light file",
+				"export": "Export light file"
+			}
+		},
+		"create": "Create new...",
+		"create_actor": "Create Actor\nDrop-down for options...",
+		"create_light": "Create Light\nDrop-down for options...",
+		"create_overlay": "Create Overlay",
+		"refresh_entities": "Refresh scene entities",
+		"edit_mode.hint": "Select editing mode",
+		"overlay.hide": "Hide KtisisPyon overlay",
+		"overlay.show": "Show KtisisPyon overlay",
+		"overlay.world_toggle": "Toggle world object overlay",
+		"overlay.range": "Range:"
+	},
+
+	"toolbar": {
+		"title": "KtisisPyon Toolbar",
+		"buttons": {
+			"workspace": "Workspace",
+			"object": "Object Editor",
+			"actor": "Actor Editor",
+			"posing": "Pose View",
+			"env": "Environment Editor",
+			"camera": "Camera Editor",
+			"scene": "Scene Editor",
+			"config": "Settings"
+		},
+		"popup": {
+			"close": "This will close",
+			"close_workspace": "all open KtisisPyon windows and reopen the Toolbar.",
+			"close_toolbar": "the toolbar and reopen the Workspace Window.",
+			"state": "You are about to",
+			"state_end": "the toolbar.",
+			"state_enable": "enable",
+			"state_disable": "disable",
+			"yes": "Continue",
+			"no": "Cancel"
+		}
+	},
+	
+	"transform_edit": {
+		"title": "Object Editor",
+		"actors": {
+			"title": "Actors"
+		},
+		"mode": {
+			"world": "World Transform",
+			"local": "Local Transform"
+		},
+		"flags": {
+			"parallel": "Gizmo Mode: Parallel Transform",
+			"inverse": "Gizmo Mode: Inverse Transform",
+			"reflect": "Gizmo Mode: Mirror Transform"
+		},
+		"sibling": {
+			"available": "Multi-select sibling bone: %bone%",
+			"unavailable": "Bone %bone% has no sibling",
+			"multiple": "Multi-select sibling bone: %bone%\nCan only select sibling when 1 bone is selected!"
+		},
+		"gizmo": {
+			"show": "Show rotation gizmo",
+			"hide": "Hide rotation gizmo"
+		},
+		"transforms": {
+			"title": "Bone Transforms",
+			"parenting": "Enable bone parenting",
+			"relative": "Relative rotation"
+		},
+		"ik": {
+			"title": "Inverse Kinematics",
+			"enable": "Enable IK constraints",
+			"advanced": "Advanced parameters",
+			"enable_all": "Enable All",
+			"disable_all": "Disable All",
+			"target": "Select",
+			"edit": "Configure",
+			"active": "Enabled",
+			"ccd": {
+				"gain": "Gain",
+				"iterations": "Iterations"
+			},
+			"two_joints": {
+				"enforce": "Enforce end rotation",
+				"mode": "Transform mode:",
+				"fixed": "Fixed target",
+				"relative": "Bone relative",
+				"gain": "Gain:",
+				"gain.shoulder": "Shoulder",
+				"gain.elbow": "Elbow",
+				"gain.hand": "Hand",
+				"hinges": "Hinges:",
+				"hinges.min": "Minimum",
+				"hinges.max": "Maximum",
+				"hinges.axis": "Axis"
+			}
+		}
+	},
+	
+	"preset_edit": {
+		"title": "Presets",
+		"add": {
+			"title": "Add new preset",
+			"label": "Preset Name",
+			"save": "Save",
+			"cancel": "Cancel"
+		},
+		"clear": "Clear",
+		"toggle_other": "Toggle other"
+	},
+	
+	"chara_edit": {
+		"title": "Actor Editor",
+		"hint": "Edit appearance & animations",
+		"animation": {
+			"tab": "Animation",
+			"controls": {
+				"animationSelect": "Animation",
+				"idleSelect": "Idle Pose",
+				"play": "Play",
+				"reset": "Reset",
+				"loop": "Loop",
+				"playStart": "Play emote start",
+				"weapon": "Weapon drawn",
+				"posLock": "Freeze positions",
+				"enableSpeed": "Enable speed control",
+				"speedSlider": "Playback Speed",
+				"scrub": "Scrub"
+			},
+			"poseExpression": {
+				"title": "Pose Expression",
+				"warning": "⚠ Posing is currently enabled!",
+				"brioWarning": "⚠ Brio is currently enabled! An incompatibility currently prevents this feature from functioning - to load Pose Expressions, please disable Brio first.",
+				"header": "WARNING: This is an experimental feature! It will overwrite any current face pose, and may deform ears or other face parts. However, you can still undo any changes made.",
+				"null": "No Selection",
+				"apply": "Apply"
+			}
+		},
+		"customize": {
+			"tab": "Appearance",
+			"iris": "Small Iris",
+			"primary": "Primary Features",
+			"face": "Facial Features",
+			"face_tat": "Tattoos",
+			"facepaint_flip": "Flip Face Paint",
+			"highlights": "Highlights",
+			"eye_color": "Eye Color",
+			"lipstick": "Lipstick"
+		},
+		"equip.tab": "Equipment",
+		"ipc": {
+			"tab": "Plugins (IPC)",
+			"warn_actor": "Please select an actor!",
+			"mcdf_load": "Load MCDF",
+			"mcdf_tip": "A MCDF or 'Mare Character Data File' contains all of a players Penumbra, Glamourer\\nand CustomizePlus data that is applied to them at the time of the capture.",
+			"customize.title": "Customize+",
+			"customize.profile": "C+ Profile",
+			"penumbra": {
+				"title": "Penumbra",
+				"collection": "Collection",
+				"invisible_skin": "Apply Invisible skin"
+			},
+			"glamourer": {
+				"title": "Glamourer",
+				"design.select": "Current selection:",
+				"design.none": "None",
+				"design.apply": "Apply"
+			}
+		},
+		"misc": {
+			"tab": "Misc",
+			"model": "Model ID",
+			"model_tip": "Press enter to submit",
+			"opacity": "Opacity",
+			"wetness": "Wetness Override",
+			"wetness.weather": "Weather Wetness",
+			"wetness.swim": "Swimming Wetness",
+			"wetness.depth": "Wetness Depth"
+		}
+	},
+
+	"object_edit": {
+		"title": "Object Editor",
+		"actor": {
+			"headers": {
+				"actor": "Actor",
+				"adv": "Advanced (Gaze/IK)",
+				"import": "Import actor appearance",
+				"gaze": "Gaze Control",
+				"ik": "Inverse Kinematics"
+			},
+			"gaze": {
+				"linked": "Linked",
+				"unlinked": "Unlinked",
+				"camera": "Camera Tracking",
+				"gizmo": "Gizmo Tracking",
+				"target": "Select target actor",
+				"targeting": "Targeting:",
+				"unk": "Unknown",
+				"null": "No Target"
+			},
+			"chara_edit": "Actor Editor",
+			"export": "Export Chara"
+		},
+		"pose": {
+			"headers.pose": "Pose",
+			"headers.reference": "Reference pose",
+			"headers.import": "Import pose file",
+			"export": "Export Pose",
+			"flip": "Flip Pose",
+			"stash": "Stash Pose",
+			"stash.apply": "Apply Pose",
+			"stash.time": "Pose stashed at",
+			"stash.from": "from Actor",
+			"reference": "Reset Pose",
+			"reference_labels": {
+				"all": "Reset All Skeletons",
+				"null": "N/A",
+				"body": "Reset Body",
+				"face": "Reset Face",
+				"hair": "Reset Hair",
+				"custom": "Reset Skeleton"
+			}
+		},
+		"light": {
+			"headers": {
+				"light": "Light",
+				"shadow": "Shadows"
+			},
+			"light": {
+				"reflection": "Enable reflections",
+				"type": "Light Type",
+				"color": "Color",
+				"intensity": "Intensity",
+				"range": "Range",
+				"import": "Import light settings",
+				"export": "Export light settings",
+				"spot.angle": "Cone Angle",
+				"spot.falloff": "Falloff Angle",
+				"area.angle": "Light Angle",
+				"area.falloff": "Falloff Angle",
+				"falloff.type": "Falloff Type",
+				"falloff.power": "Falloff Power",
+				"gobos": {
+					"info": "For Spot and Area Lights, a vanilla texture can now be applied.\nThis acts as a gobo, blocking or coloring some of the light source as if projected through the image.",
+					"choose": "Choose a texture for this light to project",
+					"remove": "\nRight-click to remove",
+					"current": "Current Texture:"
+				}
+			},
+			"shadow": {
+				"dynamic": "Dynamic shadows",
+				"chara": "Cast character shadows",
+				"object": "Cast object shadows",
+				"range": "Shadow Range",
+				"near": "Shadow Near",
+				"far": "Shadow Far"
+			}
+		},
+		"image": {
+			"header": "Reference Image",
+			"visible": "Enabled",
+			"load": "Load image",
+			"opacity": "Opacity"
+		},
+		"overlay": {
+			"header": "Overlay",
+			"pos": "Position",
+			"pos_drag": "Draggable",
+			"pos_snap": "Snap to center",
+			"scale": "Scale",
+			"scale_reset": "Reset scale",
+			"alpha": "Opacity",
+			"talk": {
+				"speaker": "Speaker",
+				"content": "Dialog",
+				"fontsize": "Dialog Font Size",
+				"bg": "Background",
+				"cursor": "Cursor"
+			},
+			"balloon": {
+				"content": "Dialog",
+				"fontsize": "Font Size",
+				"bg": "Background",
+				"gradient": "Color Gradient",
+				"arrow_show": "Show Bubble Arrow",
+				"arrow_pos": "Arrow Position"
+			},
+			"status": {
+				"content": "Status Text",
+				"type": "Type",
+				"tex": "Texture:",
+				"tex_hint": "Choose an icon for this status"
+			}
+		}
+	},
+	
+	"camera_edit": {
+		"title": "Camera Editor",
+		"toggles": {
+			"collide": "Collision",
+			"delimit": "Delimited",
+			"ortho": "Orthographic"
+		},
+		"sliders": {
+			"rotation": "Camera rotation",
+			"zoom": "Camera zoom",
+			"distance": "Camera distance",
+			"ortho_zoom": "Orthographic camera zoom"
+		},
+		"position": {
+			"lock": "Lock to fixed position",
+			"unlock": "Unlock fixed position"
+		},
+		"orbit": {
+			"lock": "Lock orbit target",
+			"unlock": "Unlock orbit target"
+		},
+		"offset": {
+			"to_target": "Offset camera to target model",
+			"from_base": "Offset from base position"
+		},
+		"pan": "Camera pan",
+		"angle": "Camera orbit angle",
+		"tracking": {
+			"info": "Add bone to track\nHold shift to clear tracked bones",
+			"track": "Track selected bones",
+			"current": "Bones tracked:",
+			"multi": "Multiple..."
+		}
+	},
+	
+	"env_edit": {
+		"title": "Environment Editor",
+		"enable": "Enable",
+		"weather": "Weather",
+		"time": "Time and Day",
+		"advanced": "Advanced Editing",
+		"fog": {
+			"title": "Fog",
+			"color": "Color",
+			"distance": "Distance",
+			"thickness": "Thickness",
+			"opacity": "Opacity",
+			"sky_vis": "Sky Visibility"
+		},
+		"housing": {
+			"title": "Housing",
+			"unavailable": "Housing light is not available.",
+			"brightness": "Brightness",
+			"ssao": "SSAO"
+		},
+		"lighting": {
+			"title": "Light",
+			"sunlight": "Sunlight",
+			"moonlight": "Moonlight",
+			"ambient": "Ambient",
+			"saturation": "Saturation",
+			"temperature": "Temperature"
+		},
+		"particles": {
+			"title": "Particles",
+			"intensity": "Intensity",
+			"size": "Size",
+			"glow": "Glow",
+			"color": "Color",
+			"weight": "Weight",
+			"spread": "Spread",
+			"speed": "Speed",
+			"spin": "Spin"
+		},
+		"sky": {
+			"title": "Sky",
+			"edit_sky": "Edit skybox",
+			"texture": "Sky Texture",
+			"edit_clouds": "Edit clouds",
+			"top": "Top Clouds",
+			"side": "Side Clouds",
+			"color": "Cloud Color",
+			"shadow_color": "Shadow Color",
+			"shadows": "Shadows",
+			"side_height": "Side Height"
+		},
+		"rain": {
+			"title": "Rain",
+			"intensity": "Intensity",
+			"thickness": "Thickness",
+			"color": "Color",
+			"weight": "Weight",
+			"scattering": "Scattering",
+			"raindrops": "Raindrops"
+		},
+		"stars": {
+			"title": "Stars",
+			"intensity": "Intensity",
+			"constellations": "Constellations",
+			"galaxy_intensity": "Galaxy Intensity",
+			"moon_color": "Moon Color",
+			"moon_brightness": "Moon Brightness"
+		},
+		"water": {
+			"title": "Water",
+			"water_one": "Water One",
+			"water_two": "Water Two",
+			"water_three": "Water Three",
+			"water_four": "Water Four"
+		},
+		"wind": {
+			"title": "Wind",
+			"direction": "Direction",
+			"angle": "Angle",
+			"speed": "Speed"
+		}
+	},
+
+	"scene_edit": {
+		"title": "Scene Editor"
+	},
+	
+	"pose_view": {
+		"title": "Pose View",
+		"view_chooser": "View:",
+		"import": "Import",
+		"export": "Export",
+		"no_target": "Select an actor to start editing its pose."
+	},
+
+	"chara_import": {
+		"title": "Import Appearance",
+		"header": "Importing appearance for",
+		"apply": "Apply"
+	},
+	"pose_import": {
+		"title": "Import Pose",
+		"header": "Importing pose for",
+		"apply": "Apply",
+		"transforms.header": "Transforms:",
+		"modes": {
+			"header": "Modes:",
+			"selective_import": "Apply selected bones",
+			"descendants": "Include descendants",
+			"anchor": "Anchor group positions",
+			"exclude_ears": "Exclude ear bones",
+			"warn_face_compat": "Face will not be imported from the selected pose file due to incompatibility with the selected actor.",
+			"warn_ik_on": "Inverse Kinematics are enabled! These may override imported limbs."
+		}
+	},
+
+	"config": {
+		"title": "KtisisPyon Settings",
+		"categories": {
+			"title": "Personalize",
+			"allow_nsfw": "Display NSFW bones",
+			"hint_nsfw": "Requires IVCS, YAS, or any custom skeleton",
+			"show_all_viera_ears": "Show unused ear bones",
+			"hint_viera_ears": "Show bones for all viera ears, including those for other ear options.",
+			"show_friendly_bone_names": "Display friendly bone names",
+			"hint_friendly_bones": "Use localized names for bones where available, rather than SE defaults.",
+			"header": "Bone Categories:",
+			"editor": {
+				"color_header": "Colors:",
+				"group_color": "Group Color",
+				"bone_color": "Bone Color",
+				"subcategories": "Apply to subcategories",
+				"link_colors": "Link group & bone colors"
+			}
+		},
+		"gizmo": {
+			"title": "Gizmo",
+			"flip": "Flip axis to face camera",
+			"raySnap": "Hold Shift to ray snap objects",
+			"rayHint": "When moving a translation gizmo for XYZ, holding Shift will snap the object to world surfaces",
+			"holdSnap": "Hold Control for gizmo snapping (+Shift for precision)",
+			"hintHoldSnap": "Snaps gizmo values to nearest numbers while dragging the mouse",
+			"2d_scale": "2D gizmo scale",
+			"header": "Gizmo Style:",
+			"disabled": "Gizmo Styling is currently disabled in this build, pending a Dalamud update!",
+			"editor": {
+				"general": {
+					"title": "General",
+					"dir_x": "Direction X",
+					"dir_y": "Direction Y",
+					"dir_z": "Direction Z",
+					"active": "Selected Color",
+					"inactive": "Inactive Color"
+				},
+				"position": {
+					"title": "Position",
+					"line_thick": "Line Thickness",
+					"line_color": "Line Color",
+					"axis_thick": "Hatched Axis Thickness",
+					"axis_color": "Hatched Axis Color",
+					"circle_size": "Center Circle Size",
+					"arrow_size": "Arrow Size",
+					"plane_x": "Plane X",
+					"plane_y": "Plane Y",
+					"plane_z": "Plane Z"
+				},
+				"rotation": {
+					"title": "Rotation",
+					"inner_thick": "Inner Line Thickness",
+					"outer_thick": "Outer Line Thickness",
+					"border_color": "Activated Border Color",
+					"fill_color": "Activated Fill Color"
+				},
+				"scale": {
+					"title": "Scale",
+					"line_thick": "Line Thickness",
+					"line_color": "Activated Line Color",
+					"circle_size": "Circle Size"
+				},
+				"text": {
+					"title": "Text",
+					"color": "Text Color",
+					"shadow_color": "Shadow Color"
+				},
+				"undo": "Reset to default"
+			}
+		},
+		"overlay": {
+			"title": "Overlay",
+			"header": "Configure Overlay:",
+			"lines": {
+				"draw": "Draw lines on skeleton",
+				"draw_gizmo": "Draw lines on skeleton while using gizmo",
+				"thick": "Line thickness",
+				"opacity": "Line opacity",
+				"opacity_gizmo": "Line opacity while using gizmo"
+			},
+			"dots": {
+				"draw_gizmo": "Draw dots while using gizmo",
+				"radius": "Dot radius"
+			},
+			"world": {
+				"dot_radius": "World node radius",
+				"dot_thickness": "World node outline thickness",
+				"scale_factor": "World node scale factor",
+				"color": "World node fill color",
+				"color_actor": "Actor node fill color",
+				"color_light": "Light node fill color",
+				"highlight_color": "Highlight color when hovering"
+			},
+			"keep_presets_on_active": "Keep Presets enabled when active actor changes",
+			"dim_inactive": "Dim bones on inactive actors",
+			"active_state_chooser": "Active state for actors",
+			"inactive_opacity": "Opacity while inactive"
+		},
+		"references": {
+			"draw_title": "Draw title for reference images"
+		},
+		"workspace": {
+			"title": "General",
+			"header": "Workspace Settings",
+			"init": "Open workspace when entering GPose",
+			"toggleOpenWindows": "UI buttons toggle windows open & closed",
+			"toolbar": "Use KtisisPyon Toolbar",
+			"hintToolbar": "Experimental: This is an alternate UI which puts all of KtisisPyon editors into one window.\nPlease provide any feedback, as this option is actively under development!",
+			"editOnSelect": "Open object editor when selecting from the workspace",
+			"closeOnDeselect": "Close object editor when nothing is selected",
+			"incognitoPlayerNames": "Incognito Mode",
+			"hintIncognito": "Censors all player names from actor list and GPose window",
+			"hintInit": "If disabled, you can open the KtisisPyon Workspace by typing /ktisispyon while in GPose",
+			"windowHeader": "Window Behavior Options",
+			"legacyHeader": "Legacy Interface Options [will be deprecated with v0.3 release]",
+			"legacyWindows": "Prefer legacy window behavior",
+			"legacyWindowHint": "Controls how and whether windows refer solely to the targeted actor",
+			"legacyPoseTabs": "Pose View: Change actors via tabs instead of the workspace",
+			"legacyLightEditor": "Prefer legacy light editor",
+			"legacyLightHint": "Allows opening the Light Editor window, now moved to the Object Editor",
+			"confirmExit": "Ensure shift has to be held to exit posing mode",
+			"AutoResizeObjectEditor": "Automatically expand the Object Editor when opening new dropdowns",
+			"hint_AutoResizeObj": "This disables the ability to resize the editors height, but you can still change its width",
+			"openTray": "When closing the workspace in GPose, open a KtisisPyon Tray icon",
+			"hintTrayIcon": "The widget is movable when you click and drag, and will reopen the workspace when clicked",
+			"showHints": "Display Ktisis Tips on Startup",
+			"hintHint": "The first time you enter GPose after launching KtisisPyon, an overlay will display a random tip, hint, or fun fact!",
+			"selectTarget": "Automatically Select actors when Targeted",
+			"hintSelectTarget": "An actor is Targeted when clicked or tabbed-to with vanilla GPose controls.\nThis toggle will override KtisisPyon current Selection to your new Target when one is chosen.",
+			"workcam": {
+				"speed": "Work camera speed",
+				"fastMulti": "Work camera fast-multiplier",
+				"slowMulti": "Work camera slow-multiplier",
+				"vertMulti": "Work camera up/down speed multiplier",
+				"sens": "Work camera mouse sensitivity"
+			},
+			"customLocations": {
+				"header": "Custom File Locations",
+				"description": "Manage custom folder locations for the file dialog.",
+				"columnName": "Name",
+				"columnPath": "Path",
+				"browse": "Browse",
+				"remove": "Remove",
+				"add": "Add New Location",
+				"moving": "Moving %name%",
+				"selectFolder": "Select Folder"
+			},
+			"defaultLocation": {
+				"remove": "Unset this folder as default",
+				"add": "Set this folder as default place to open when using the file browser"
+			}
+		},
+		"input": {
+			"title": "Inputs",
+			"enable": "Enable keybinds",
+			"help": "Click keybinds to modify them. Right click to clear. Keybinds must be enabled to edit.",
+			"blockLeft": "Disable GPose change target on left click",
+			"blockRight": "Disable GPose change target on right click",
+			"scrollAllow": "Enable scrollwheel input for transform sliders",
+			"scrollMod": "Require ALT to be held for scrollwheel control of transform sliders",
+			"reset": "Reset Keybinds",
+			"cameras": {
+				"title": "Cameras",
+				"header": "Camera Controls:"
+			},
+			"gizmo": {
+				"title": "Gizmo",
+				"header": "Gizmo Actions:"
+			},
+			"toolbar": {
+				"title": "Toolbar",
+				"header": "Toolbar Controls:"
+			}
+		},
+		"autosave": {
+			"title": "Auto Save",
+			"enable": "Enable auto saves",
+			"clear": "Clear auto saves on exit",
+			"ondisable": "Always save on disabling posing mode",
+			"disconnect": "Always save on server disconnect",
+			"interval": "Save interval",
+			"count": "Save count",
+			"path": "Save path",
+			"dir": "Folder name"
+		},
+		"presets": {
+			"title": "Presets",
+			"description": "View and edit your defined bone visibility presets below.",
+			"defaults": "Right click any preset to mark it as Default. Default presets will be initially enabled for any GPose actors.",
+			"delete_tooltip": "Hold shift to delete",
+			"delete": "Delete",
+			"rename": "Rename"
+		},
+		"poseview": {
+			"title": "Pose View",
+			"description": "Select your own images to use in the Pose View interface below.",
+			"body": "Body",
+			"armor": "Armor (Clothing)",
+			"ears": "Ears (Viera)",
+			"face": "Face",
+			"hands": "Hands",
+			"lips": "Lips",
+			"mouth": "Mouth",
+			"tail": "Tail",
+			"linkout": {
+				"description": "Download template images here:",
+				"button": "GitHub",
+				"link": "https://github.com/ktisis-tools/Ktisis/tree/v0.3/main/Ktisis/Data/Images/Templates"
+			}
+		},
+		"offsets": {
+			"title": "Bone Offsets",
+			"description": "Import and edit Visual Bone Offsets",
+			"help": "By setting a translation for a bone below, its clickable node on KtisisPyon overlay will be offset by those values.",
+			"selected": "Selected Bone",
+			"ui": {
+				"copy_all": "Copy All to Clipboard",
+				"load_all": "Load All from Clipboard",
+				"load_all_warning": "Warning: This will replace ALL your current offsets.\nHold CTRL+Shift to confirm.",
+				"add_bone": "Add offset",
+				"load_legacy": "Load Legacy Offsets",
+				"copy_bone": "Copy offset values",
+				"load_bone": "Paste offset values",
+				"clear_bone": "Shift+click to clear bone offset"
+			},
+			"race_sex": {
+				"101": "Midlander Male",
+				"201": "Midlander Female",
+				"301": "Highlander Male",
+				"401": "Highlander Female",
+				"501": "Elezen Male",
+				"601": "Elezen Female",
+				"701": "Miqote Male",
+				"801": "Miqote Female",
+				"901": "Roegadyn Male",
+				"1001": "Roegadyn Female",
+				"1101": "Lalafell Male",
+				"1201": "Lalafell Female",
+				"1301": "Au Ra Male",
+				"1401": "Au Ra Female",
+				"1501": "Hrothgar Male",
+				"1601": "Hrothgar Female",
+				"1701": "Viera Male",
+				"1801": "Viera Female"
+			}
+		},
+		"misc.title": "Misc",
+		"about": {
+			"title": "About",
+			"header": "About Ktisis",
+			"readme": "Ktisis is a robust posing tool for creating screenshots within FFXIV's GPose mode which allows you to pose characters by clicking on bones and moving them in any way you want, bringing additional features such as animation control and character editing. Our primary aim is to make posing more accessible for all.",
+			"gitLinkout": {
+				"description": "You can submit any issues or help our development on GitHub:",
+				"button": "GitHub",
+				"link": "https://github.com/ktisis-tools/Ktisis/"
+			},
+			"discordLinkout": {
+				"description": "Join our Discord community for support, screenshot sharing, changelogs, and more:",
+				"button": "Discord",
+				"link": "https://discord.com/invite/kUG3W8B8Ny/"
+			}
+		},
+		"language": {
+			"title": "Language",
+			"autoselect": "Automatically set language",
+			"selector": "Force Language"
+		}
+	},
+
+	"migrator": {
+		"title": "KtisisPyon v0.4 Setup",
+		"mainWindow": {
+			"main_Desc": "Thank you for using Ktisis! v0.4 is now our stable version.\nThis migrator will allow you to transfer your Ktisis Alpha settings, or update your Ktisis Workspace settings.",
+			"skip": "Skip migration",
+			"skip_desc": "Skip Migrating and start v0.4 with default settings.\nYou will not be able to revisit the migrator. Any old settings will be discarded.",
+			"v3": {
+				"from": "I'm coming from v0.3!",
+				"from_desc": "Start Migrating based on your Ktisis Settings from v0.3 (Testing).\nThis will ignore any legacy settings from v0.2 if applicable.",
+				"main_Desc": "A lot has changed since we started developing v0.3, and as we've worked on Ktisis, some features have changed or improved.\nThe following settings have new defaults. You can keep your old configuration if you wish to, or you can use the new recommended values.",
+				"testing": "Now that v0.4 is officially released, we suggest that you disable [Receive Testing Versions] in Dalamud.",
+				"installer": "You can open the Plugin Installer to change this setting for Ktisis here:"
+			},
+			"v2": {
+				"from": "I'm coming from v0.2!",
+				"from_desc": "Start Migrating based on your Ktisis Settings from v0.2 (Alpha).\nThis will overwrite your existing v0.3 settings if applicable.",
+				"main_Desc": "Thank you for using Ktisis! v0.4 is our latest version, and represents over 2 years of work by multiple authors to improve on the Alpha version.\nNearly all of the code from v0.2 has been updated in that time, so we appreciate you for sticking with us. These rewrites have given us a stable foundation for future work.\nBeyond just the new features in v0.2, we have lots of big ideas still to explore, so stay tuned!",
+				"migration_desc": "This updater will take your settings from v0.2 and convert them to v0.4, wherever possible. Please note any tooltips & descriptions for your benefit.\nYou can override them yourself on each page and can change these settings after migration, too.",
+				"wiki": "To learn more about the changes between Ktisis v0.2 and v0.4, visit our Wiki docs here:"
+			}
+		},
+		"v3": {
+			"openWindowToggle": "Toggle open Windows",
+			"openWindowToggleSub": "When enabled, Workspace buttons can both open and close their respective windows.",
+			"toolbar": "Use Ktisis Toolbar",
+			"toolbarSub": "Ktisis Toolbar is an alternate UI mode recommended for v0.2 users and those more comfortable with a compact, single-window UI.",
+			"keybinds": "Enable Hotkeys"
+		},
+		"v2": {
+			"editor": {
+				"header": "Editor settings",
+				"nsfw": "Show NSFW Bones",
+				"nsfwTooltip": "v0.2 setting: Censor NSFW bones",
+				"incognito": "Incognito Mode",
+				"incognitoTooltip": "v0.2 setting: Hide Player Names",
+				"incognitoSub": "We recommend this to be enabled when sharing any UI screenshots for player privacy concerns.",
+				"toolbar": "Use Ktisis Toolbar",
+				"toolbarSub": "Ktisis Toolbar is an alternate UI mode recommended for v0.2 users and those more comfortable with a compact, single-window UI."
+			},
+			"input": {
+				"header": "Input settings",
+				"detail": "Your v0.2 keybinds will be migrated to their v0.4 counterparts where possible. You can update these anytime in the Settings > Inputs menus.",
+				"keybinds": "Enable Keybinds",
+				"leftClick": "Disable GPose change target on left click",
+				"rightClick": "Disable GPose change target on right click"
+			},
+			"overlay": {
+				"header": "Overlay settings",
+				"detail": "Color and transparency choices for each category of bones can be customized in the Settings > Personalize menu after migration.",
+				"drawLines": "Draw lines on skeleton",
+				"drawLinesGizmo": "Draw lines on skeleton while using gizmo",
+				"drawDotsGizmo": "Draw dots while using gizmo",
+				"allowAxisFlip": "Flip axis to face camera",
+				"allowAxisFlipTip": "Allows the 3D Gizmo to reorient itself based on the GPose camera angle",
+				"lineThickness": "Line thickness",
+				"lineOpacity": "Line opacity",
+				"lineOpacityUsing": "Line opacity using",
+				"dotRadius": "Dot radius",
+				"selectTarget": "Select actors when Targeted",
+				"selectTargetTip": "Unlike v0.2, Ktisis v0.3 allows multiple actors to be edited simultaneously, allowing the camera to orbit independently of your selected actor's skeleton. This setting links camera targeting to actor selection for a more familiar muscle memory to v0.2.",
+				"dimInactive": "Dim bones on inactive actors",
+				"dimInactiveTip": "If multiple skeletons are visible, this setting will add a transparency/dimming effect to those not in focus. This can be further customized in the Overlay settings after migration."
+			},
+			"autosave": {
+				"header": "Auto Save settings",
+				"detail": "A destination folder and naming schema for autosaves can be further customized in the Settings > Auto Save menu after migration.",
+				"enabled": "Enabled",
+				"interval": "Interval",
+				"intervalTip": "Number of seconds to wait between each autosave",
+				"numToSave": "Maximum number of autosaves",
+				"clearOnExit": "Clear on Exit",
+				"autoOnDC": "Autosave on Disconnect"
+			},
+			"camera": {
+				"header": "Work Camera settings",
+				"sens": "Sensitivity",
+				"movSpeed": "Movement speed",
+				"fastMulti": "Fast Multiplier",
+				"slowMulti": "Slow Multiplier",
+				"vertMulti": "Vertical Multiplier"
+			}
+		},
+		"next": "Next",
+		"finish": "Finish"
+	},
+	
+	"bone": {
+		"n_root": "Root",
+		"n_hara": "Abdomen",
+		"n_throw": "Throw",
+		"j_kosi": "Waist",
+		"j_sebo_a": "Lumbar",
+		"j_asi_a_l": "Left Leg",
+		"j_asi_a_r": "Right Leg",
+		"j_buki2_kosi_l": "Left Holster",
+		"j_buki2_kosi_r": "Right Holster",
+		"j_buki_kosi_l": "Left Sheathe",
+		"j_buki_kosi_r": "Right Sheathe",
+		"j_sebo_b": "Thoracic",
+		"j_sk_b_a_l": "Left Cloth Back A",
+		"j_sk_b_a_r": "Right Cloth Back A",
+		"j_sk_f_a_l": "Left Cloth Front A",
+		"j_sk_f_a_r": "Right Cloth Front A",
+		"j_sk_s_a_l": "Left Cloth Side A",
+		"j_sk_s_a_r": "Right Cloth Side A",
+		"j_asi_b_l": "Left Knee",
+		"j_asi_b_r": "Right Knee",
+		"j_mune_l": "Left Breast",
+		"j_mune_r": "Right Breast",
+		"j_sebo_c": "Cervical",
+		"j_sk_b_b_l": "Left Cloth Back B",
+		"j_sk_b_b_r": "Right Cloth Back B",
+		"j_sk_f_b_l": "Left Cloth Front B",
+		"j_sk_f_b_r": "Right Cloth Front B",
+		"j_sk_s_b_l": "Left Cloth Side B",
+		"j_sk_s_b_r": "Right Cloth Side B",
+		"j_asi_c_l": "Left Calf",
+		"j_asi_c_r": "Right Calf",
+		"j_buki_sebo_l": "Left Scabbard",
+		"j_buki_sebo_r": "Right Scabbard",
+		"j_kubi": "Neck",
+		"j_sako_l": "Left Clavicle",
+		"j_sako_r": "Right Clavicle",
+		"j_sk_b_c_l": "Left Cloth Back C",
+		"j_sk_b_c_r": "Right Cloth Back C",
+		"j_sk_f_c_l": "Left Cloth Front C",
+		"j_sk_f_c_r": "Right Cloth Front C",
+		"j_sk_s_c_l": "Left Cloth Side C",
+		"j_sk_s_c_r": "Right Cloth Side C",
+		"n_hizasoubi_l": "Left Poleyn",
+		"n_hizasoubi_r": "Right Poleyn",
+		"j_asi_d_l": "Left Foot",
+		"j_asi_d_r": "Right Foot",
+		"j_kao": "Head",
+		"j_ude_a_l": "Left Arm",
+		"j_ude_a_r": "Right Arm",
+		"n_kataarmor_l": "Left Pauldron",
+		"n_kataarmor_r": "Right Pauldron",
+		"j_asi_e_l": "Left Toes",
+		"j_asi_e_r": "Right Toes",
+		"j_kami_a": "Hair A",
+		"j_kami_f_l": "Left Hair Front",
+		"j_kami_f_r": "Right Hair Front",
+		"j_mimi_l": "Left Ear",
+		"j_mimi_r": "Right Ear",
+		"j_ude_b_l": "Left Forearm",
+		"j_ude_b_r": "Right Forearm",
+		"n_hkata_l": "Left Shoulder (Twist)",
+		"n_hkata_r": "Right Shoulder (Twist)",
+		"j_kami_b": "Hair B",
+		"j_te_l": "Left Hand",
+		"j_te_r": "Right Hand",
+		"n_buki_tate_l": "Left Shield",
+		"n_buki_tate_r": "Right Shield",
+		"n_ear_a_l": "Left Earring A",
+		"n_ear_a_r": "Right Earring A",
+		"n_hhiji_l": "Left Elbow (Twist)",
+		"n_hhiji_r": "Right Elbow (Twist)",
+		"n_hijisoubi_l": "Left Couter",
+		"n_hijisoubi_r": "Right Couter",
+		"n_hte_l": "Left Wrist",
+		"n_hte_r": "Right Wrist",
+		"j_hito_a_l": "Left Index A",
+		"j_hito_a_r": "Right Index A",
+		"j_ko_a_l": "Left Pinky A",
+		"j_ko_a_r": "Right Pinky A",
+		"j_kusu_a_l": "Left Ring A",
+		"j_kusu_a_r": "Right Ring A",
+		"j_naka_a_l": "Left Middle A",
+		"j_naka_a_r": "Right Middle A",
+		"j_oya_a_l": "Left Thumb A",
+		"j_oya_a_r": "Right Thumb A",
+		"n_buki_l": "Left Weapon",
+		"n_buki_r": "Right Weapon",
+		"n_ear_b_l": "Left Earring B",
+		"n_ear_b_r": "Right Earring B",
+		"j_hito_b_l": "Left Index B",
+		"j_hito_b_r": "Right Index B",
+		"j_ko_b_l": "Left Pinky B",
+		"j_ko_b_r": "Right Pinky B",
+		"j_kusu_b_l": "Left Ring B",
+		"j_kusu_b_r": "Right Ring B",
+		"j_naka_b_l": "Left Middle B",
+		"j_naka_b_r": "Right Middle B",
+		"j_oya_b_l": "Left Thumb B",
+		"j_oya_b_r": "Right Thumb B",
+		"n_sippo_a": "Tail A",
+		"n_sippo_b": "Tail B",
+		"n_sippo_c": "Tail C",
+		"n_sippo_d": "Tail D",
+		"n_sippo_e": "Tail E",
+		"j_ago": "Jaw",
+		"j_sita": "Tongue",
+		"j_f_dmab_l": "Left Lower Eyelid",
+		"j_f_dmab_r": "Right Lower Eyelid",
+		"j_f_eye_l": "Left Eye",
+		"j_f_eye_r": "Right Eye",
+		"j_f_hana": "Nose",
+		"j_f_lip_l": "Left Lips",
+		"j_f_lip_r": "Right Lips",
+		"j_f_memoto": "Bridge",
+		"j_f_miken_l": "Left Brow",
+		"j_f_miken_r": "Right Brow",
+		"j_f_ulip_a": "Upper Lip A",
+		"j_f_umab_l": "Left Upper Eyelid",
+		"j_f_umab_r": "Right Upper Eyelid",
+		"j_f_dlip_a": "Lower Lip A",
+		"j_f_ulip_b": "Upper Lip B",
+		"j_f_dlip_b": "Lower Lip B",
+		"j_zera_a_l": "Left Ear 1A",
+		"j_zera_a_r": "Right Ear 1A",
+		"j_zera_b_l": "Left Ear 1B",
+		"j_zera_b_r": "Right Ear 1B",
+		"j_zerb_a_l": "Left Ear 2A",
+		"j_zerb_a_r": "Right Ear 2A",
+		"j_zerb_b_l": "Left Ear 2B",
+		"j_zerb_b_r": "Right Ear 2B",
+		"j_zerc_a_l": "Left Ear 3A",
+		"j_zerc_a_r": "Right Ear 3A",
+		"j_zerc_b_l": "Left Ear 3B",
+		"j_zerc_b_r": "Right Ear 3B",
+		"j_zerd_a_l": "Left Ear 4A",
+		"j_zerd_a_r": "Right Ear 4A",
+		"j_zerd_b_l": "Left Ear 4B",
+		"j_zerd_b_r": "Right Ear 4B",
+		"j_f_hige_l": "Left Whiskers",
+		"j_f_hige_r": "Right Whiskers",
+		"j_f_uago": "Upper Lip A",
+		"j_f_ulip": "Upper Lip B",
+		"n_f_lip_l": "Left Lips",
+		"n_f_lip_r": "Right Lips",
+		"n_f_ulip_l": "Left Upper Lip",
+		"n_f_ulip_r": "Right Upper Lip",
+		"j_f_dlip": "Lower Lip",
+		"j_ex_met_va": "Visor",
+		"mh_n_hara": "Main Hand",
+		"oh_n_hara": "Off Hand",
+		"j_half_l": "Left Half",
+		"j_half_r": "Right Half",
+
+		"j_f_ago": "Jaw",
+		"j_f_dago": "Lower Jaw",
+		"j_f_bero_01": "Tongue A",
+		"j_f_bero_02": "Tongue B",
+		"j_f_bero_03": "Tongue C",
+		"j_f_hagukiup": "Upper Teeth",
+		"j_f_hagukidn": "Lower Teeth",
+		"j_f_dlip_01_l": "Lip Lower Left Center A",
+		"j_f_dlip_02_l": "Lip Lower Left Center B",
+		"j_f_dlip_01_r": "Lip Lower Right Center A",
+		"j_f_dlip_02_r": "Lip Lower Right Center B",
+		"j_f_ulip_01_l": "Lip Upper Left Center A",
+		"j_f_ulip_02_l": "Lip Upper Left Center B",
+		"j_f_ulip_01_r": "Lip Upper Right Center A",
+		"j_f_ulip_02_r": "Lip Upper Right Center B",
+		"j_f_dmlip_01_l": "Lip Lower Left A",
+		"j_f_dmlip_02_l": "Lip Lower Left B",
+		"j_f_dmlip_01_r": "Lip Lower Right A",
+		"j_f_dmlip_02_r": "Lip Lower Right B",
+		"j_f_umlip_01_l": "Lip Upper Left A",
+		"j_f_umlip_02_l": "Lip Upper Left B",
+		"j_f_umlip_01_r": "Lip Upper Right A",
+		"j_f_umlip_02_r": "Lip Upper Right B",
+		"j_f_uslip_l": "Lip Upper Left Corner A",
+		"j_f_dslip_l": "Lip Lower Left Corner A",
+		"j_f_uslip_r": "Lip Upper Right Corner A",
+		"j_f_dslip_r": "Lip Lower Right Corner A",
+
+		"j_f_mab_l": "Left Eye Socket",
+		"j_f_mab_r": "Right Eye Socket",
+		"j_f_eyepuru_l": "Left Iris",
+		"j_f_eyepuru_r": "Right Iris",
+		"j_f_mabup_01_l": "Left Upper Eyelid",
+		"j_f_mabdn_01_l": "Left Lower Eyelid",
+		"j_f_mabup_01_r": "Right Upper Eyelid",
+		"j_f_mabdn_01_r": "Right Lower Eyelid",
+		"j_f_mabup_02out_l": "Left Upper Eyelid Outer",
+		"j_f_mabdn_02out_l": "Left Lower Eyelid Outer",
+		"j_f_mabup_03in_l": "Left Upper Eyelid Inner",
+		"j_f_mabdn_03in_l": "Left Lower Eyelid Inner",
+		"j_f_mabup_02out_r": "Right Upper Eyelid Outer",
+		"j_f_mabdn_02out_r": "Right Lower Eyelid Outer",
+		"j_f_mabup_03in_r": "Right Upper Eyelid Inner",
+		"j_f_mabdn_03in_r": "Right Lower Eyelid Inner",
+
+		"j_f_mayu_l": "Left Eyebrow A",
+		"j_f_mayu_r": "Right Eyebrow A",
+		"j_f_mmayu_l": "Left Eyebrow B",
+		"j_f_mmayu_r": "Right Eyebrow B",
+		"j_f_miken_01_l": "Left Brow Ridge A",
+		"j_f_miken_02_l": "Left Brow Ridge B",
+		"j_f_miken_01_r": "Right Brow Ridge A",
+		"j_f_miken_02_r": "Right Brow Ridge B",
+
+		"j_f_face": "Face",
+		"j_f_hoho_l": "Left Cheek",
+		"j_f_hoho_r": "Right Cheek",
+		"j_f_dhoho_l": "Left Outer Cheek",
+		"j_f_dhoho_r": "Right Outer Cheek",
+		"j_f_shoho_l": "Left Middle Cheek",
+		"j_f_shoho_r": "Right Middle Cheek",
+		"j_f_dmemoto_l": "Left Inner Cheek",
+		"j_f_dmemoto_r": "Right Inner Cheek",
+		"j_f_uhana": "Bridge",
+		"j_f_hana_l": "Left Nostril",
+		"j_f_hana_r": "Right Nostril",
+		"j_f_dmiken_l": "Left Glabella",
+		"j_f_dmiken_r": "Right Glabella",
+
+		"j_ex_met_vb": "Visor",
+
+		"iv_asi_oya_a_l": "IVCS Big Toe A Left",
+		"iv_asi_oya_b_l": "IVCS Big Toe B Left",
+		"iv_asi_hito_a_l": "IVCS Index Toe A Left",
+		"iv_asi_hito_b_l": "IVCS Index Toe B Left",
+		"iv_asi_naka_a_l": "IVCS Middle Toe A Left",
+		"iv_asi_naka_b_l": "IVCS Middle Toe B Left",
+		"iv_asi_kusu_a_l": "IVCS Fore Toe A Left",
+		"iv_asi_kusu_b_l": "IVCS Fore Toe B Left",
+		"iv_asi_ko_a_l": "IVCS Pinky Toe A Left",
+		"iv_asi_ko_b_l": "IVCS Pinky Toe B Left",
+
+		"iv_asi_oya_a_r": "IVCS Big Toe A Right",
+		"iv_asi_oya_b_r": "IVCS Big Toe B Right",
+		"iv_asi_hito_a_r": "IVCS Index Toe A Right",
+		"iv_asi_hito_b_r": "IVCS Index Toe B Right",
+		"iv_asi_naka_a_r": "IVCS Middle Toe A Right",
+		"iv_asi_naka_b_r": "IVCS Middle Toe B Right",
+		"iv_asi_kusu_a_r": "IVCS Fore Toe A Right",
+		"iv_asi_kusu_b_r": "IVCS Fore Toe B Right",
+		"iv_asi_ko_a_r": "IVCS Pinky Toe A Right",
+		"iv_asi_ko_b_r": "IVCS Pinky Toe B Right",
+
+		"iv_hito_c_l": "IVCS Index C Left",
+		"iv_naka_c_l": "IVCS Middle C Left",
+		"iv_kusu_c_l": "IVCS Ring C Left",
+		"iv_ko_c_l": "IVCS Pinky C Left",
+		"iv_hito_c_r": "IVCS Index C Right",
+		"iv_naka_c_r": "IVCS Middle C Right",
+		"iv_kusu_c_r": "IVCS Ring C Right",
+		"iv_ko_c_r": "IVCS Pinky C Right",
+
+		"iv_nitoukin_l": "IVCS Bicep Left",
+		"iv_nitoukin_r": "IVCS Bicep Right",
+
+		"iv_c_mune_l": "IVCS Breast Left",
+		"iv_c_mune_r": "IVCS Breast Right",
+
+		"iv_kougan_l": "IVCS Scrotum Left",
+		"iv_kougan_r": "IVCS Scrotum Right",
+		"iv_ochinko_a": "IVCS Penis A",
+		"iv_ochinko_b": "IVCS Penis B",
+		"iv_ochinko_c": "IVCS Penis C",
+		"iv_ochinko_d": "IVCS Penis D",
+		"iv_ochinko_e": "IVCS Penis E",
+		"iv_ochinko_f": "IVCS Penis F",
+
+		"iv_kuritto": "IVCS Clitoris",
+		"iv_inshin_l": "IVCS Labia Left",
+		"iv_inshin_r": "IVCS Labia Right",
+		"iv_omanko": "IVCS Vagina",
+
+		"iv_koumon": "IVCS Anus",
+		"iv_koumon_l": "IVCS Anus Left",
+		"iv_koumon_r": "IVCS Anus Right",
+		"iv_shiri_l": "IVCS Buttock Left",
+		"iv_shiri_r": "IVCS Buttock Right"
+	},
+
+	"boneCategory": {
+		"Head": "Head",
+		"Hair": "Hair",
+		"Ears": "Ears",
+		"LeftEar": "Left Ear",
+		"RightEar": "Right Ear",
+		"Face": "Face",
+		"Brow": "Brow",
+		"LeftBrow": "Left Brow",
+		"RightBrow": "Right Brow",
+		"Eyebrows": "Eyebrows",
+		"Eyes": "Eyes",
+		"LeftEye": "Left Eye",
+		"RightEye": "Right Eye",
+		"Eyelids": "Eyelids",
+		"LeftEyelid": "Left Eyelid",
+		"RightEyelid": "Right Eyelid",
+		"Mouth": "Mouth",
+		"UpperMouth": "Upper Mouth",
+		"LowerMouth": "Lower Mouth",
+		"UpperLip": "Upper Lip",
+		"LowerLip": "Lower Lip",
+		"Cheeks": "Cheeks",
+		"LeftCheek": "Left Cheek",
+		"RightCheek": "Right Cheek",
+		"Body": "Body",
+		"Arms": "Arms",
+		"LeftArm": "Left Arm",
+		"LeftHand": "Left Hand",
+		"RightArm": "Right Arm",
+		"RightHand": "Right Hand",
+		"Spine": "Spine",
+		"Breasts": "Breasts",
+		"Legs": "Legs",
+		"LeftLeg": "Left Leg",
+		"LeftFoot": "Left Foot",
+		"RightLeg": "Right Leg",
+		"RightFoot": "Right Foot",
+		"Tail": "Tail",
+		"Clothing": "Clothing",
+		"Cloth": "Cloth",
+		"Earring": "Earring",
+		"Weapons": "Weapons",
+		"Other": "Other",
+
+		"LeftHandIvcs": "IVCS Left Hand",
+		"RightHandIvcs": "Right Hand IVCS",
+		"BreastsIvcs": "IVCS Breasts",
+		"LeftFootIvcs": "IVCS Left Foot",
+		"RightFootIvcs": "IVCS Right Foot",
+		"GenitalsIvcs": "IVCS Genitals",
+		"PenisIvcs": "IVCS Penis",
+		"VaginaIvcs": "IVCS Vagina",
+		"BottomIvcs": "IVCS Bottom",
+		
+		"SkelomaeWings": "Skelomae Wings",
+		"SkelomaeWingsLeft": "Left Skelomae Wing",
+		"SkelomaeWingsRight": "Right Skelomae Wing",
+		"SkelomaeCreatures": "Skelomae Creatures",
+		"SkelomaeCreaturesLamia": "Lamia",
+		"SkelomaeCreaturesGenetals": "Genetals",
+		"SkelomaeCreaturesCentaur": "Centaur",
+		"SkelomaeCreaturesCentaurBody": "Centaur Body",
+		"SkelomaeCreaturesCentaurBodyFrontLegs": "Front Legs",
+		"SkelomaeCreaturesCentaurBodyBackLegs": "Back Legs",
+		"SkelomaeCreaturesCentaurTail": "Tail",
+      
+		"CustomArms": "Custom Skeleton Arms",
+		"CustomAbdomen": "Custom Skeleton Abdomen",
+		"CustomLegs": "Custom Skeleton Legs"
+	},
+	
+	"lightType": {
+		"Directional": "Sun Light (Directional)",
+		"PointLight": "Point Light",
+		"SpotLight": "Spot Light",
+		"AreaLight": "Area Light"
+	},
+	
+	"lightFalloff": {
+		"Linear": "Linear",
+		"Quadratic": "Quadratic",
+		"Cubic": "Cubic"
+	},
+
+	"misc": {
+		"command_desc": "Toggle the main KtisisPyon window."
+	},
+
+	"background": {
+		"Basic": "Basic",
+		"Thought": "Thought",
+		"Echo": "Echo",
+		"Computer": "Computer",
+		"Yell": "Yell",
+		"Parchment": "Parchment",
+		"Dragonspeak": "Dragonspeak",
+		"Linkpearl": "Linkpearl",
+		"Narration": "Narration",
+		"Say": "Say",
+		"Party": "Party",
+		"Tell": "Tell",
+		"Alliance": "Alliance",
+		"Shout": "Shout",
+		"FC": "Free Company",
+		"LS": "Linkshell",
+		"CWLS": "Cross-World Linkshell",
+		"Novice": "Novice",
+		"PVP": "PVP"
+	},
+	"gradient": {
+		"Default": "Default",
+		"Lime": "Lime",
+		"Orange": "Orange",
+		"Violet": "Violet",
+		"SkyBlue": "Sky Blue",
+		"Clay": "Clay",
+		"LightJeans": "Light Jeans",
+		"GrassGreen": "Grass Green",
+		"Gray": "Gray",
+		"Pink": "Pink",
+		"DarkJeans": "Dark Jeans",
+		"Green": "Green",
+		"Purple": "Purple",
+		"Brown": "Brown",
+		"CloudyBlue": "Cloudy Blue",
+		"RoyalPurple": "Royal Purple"
+	},
+	"cursor": {
+		"None": "None",
+		"Pin": "Pin",
+		"Loop": "Loop"
+	},
+	"status": {
+		"None": "None",
+		"Buff": "Buff",
+		"Debuff": "Debuff",
+		"Falloff": "Falloff"
+	},
+	"hints": {
+		"1": "Ktisis can autosave your poses, even when you disconnect! You can enable them in the Config window.",
+		"2": "'Ktisis' is an Ancient Greek term referring to the act of creation, founding, or construction. Its adjective form is 'ktistic.'",
+		"3": "Pose responsibly! Incognito Mode will hide any player names when taking photos of your UI.",
+		"4": "Turn on the lights! Ktisis can make its own lights, or edit those created from the vanilla GPose window.",
+		"5": "You can have over 40 actors in the workspace at once - this limit doesn't extend to lights and other entities.",
+		"6": "Did you know? SimpleTweaks has an option to temporarily increase your resolution for more detailed screenshots!",
+		"7": "Weapons spawn attached to certain bones on players' skeletons, but you can attach players and other objects to different bones too.",
+		"8": "Ctrl+Click lets you select multiple objects at once, and Shift+Clicking in the Workspace selects all entities between two points.",
+		"9": "With multiple entities selected, the different Transform types (parallel, inverse, mirrored) let you modify them simultaneously.",
+		"10": "New actors don't have to be copies of your player character - you can import other NPCs or PCs from the overworld too.",
+		"11": "Tired of sitting+standing to reset your animation? The Actor Editor lets you reset or pick any animation/idle to play on any actor.",
+		"12": "Ahmi is the default Pose View character, but you can swap these for your own images using the templates in the Config window.",
+		"13": "Many installs of ReShade contain a Chroma Key shader, which lets you green-screen a perfectly transparent background for your images.",
+		"14": "Even mid-way through a pose, you can load a vanilla facial expression using the Actor Editor's Pose Expressions feature.",
+		"15": "Reference poses can be overlaid directly in-game to help you get the angles just right.",
+		"16": "The Camera Editor includes an Orthographic setting, letting you photograph scenes from a tilt-shift perspective.",
+		"17": "NPC appearances can be imported just like .chara files, or applied through another plugin like Glamourer instead.",
+		"18": "Ktisis works with other plugins through IPC, including: Penumbra collections, Glamourer designs, and C+ templates.",
+		"19": "Overlay bubbles (and these hints!) are drawn in vanilla using KamiToolKit, the same library powering the VanillaPlus plugin.",
+		"20": "Have a suggestion or encounter a bug? Send them to our Discord server!",
+		"21": "Spot Lights and Area Lights can have a texture loaded in front of them to apply different colors and effects - we call these gobos!",
+		"22": "You can click the center dot of a translation gizmo to move an actor in 3D - holding Shift will snap them onto terrain in the world!",
+		"23": "The Actor Editor's animation controls let you apply animations onto different parts of the body, like talking animations for lips.",
+		"24": "If you use an emote that spawns a prop object (like /tomestone), it can be posed with Ktisis like any weapon.",
+		"25": "The Actor Editor's equipment tab also lets you equip non-weapon props, such as: job stones, wine bottles, books, and Nidhogg's eye.",
+		"26": "Overworld objects edited by Ktisis are only temporarily changed - their hitboxes and collision data also remain intact.",
+		"27": "Different bodies of water will use the Water Editor's sliders for different purposes - play around to see which affects where!",
+		"28": "Inverse Kinematics can change the positions of limbs in and out of posing mode, even while animations are playing.",
+		"29": "Non-human actors may be compatible with Gaze Control, including minions and monsters.",
+		"30": "You can change many of the colors for Ktisis' overlay (gizmo, bones, workspace categories) in the Config > Personalization section.",
+		"31": "Hair and faces belong to different partial skeletons than the main body, just like some helmets and chest pieces.",
+		"32": "The orb/arrows used for posing is called a Gizmo, and gets drawn by the ImGuizmo tool for ImGui!",
+		"33": "You can change the positions at which bones appear using Bone Offsets, which are useful for close-together clusters like facial bones.",
+		"34": "You can dismiss these hints by left-clicking them, or disable them entirely in the settings.",
+		"35": "The scrollwheel lets you move Ktisis' colored transform sliders one tick at a time, or faster/slower by holding Shift or Control.",
+		"36": "Since updates made in FFXIV Dawntrail, face-expression poses may only load correctly on the race/gender they were created with.",
+		"37": "The vanilla GPose menu has a button to add stickers over your screen - try them out for different icons, emojis and text.",
+		"38": "There's over 280 possible character portraits to display along with these hints.",
+		"39": "Too many windows? Try the alternate Ktisis Toolbar UI in your settings menu!",
+		"40": "You can copy Lights and Actors into your Scene from the World Overlay, just like with objects.",
+		"41": "Bones can be made more transparent on actors you're not currently selecting or camera targeting; check out the Overlay settings!",
+		"42": "The Expressions tab of the Object Editor lets you blend different sliders to mutate or create new facial expressions.",
+		"43": "You can keep Presets visible on your selected or camera-targeted actor with options in our Overlay settings.",
+		"44": "We have our own wiki! Visit docs.ktisis.tools to read up or contribute.",
+		"45": "You can browse Dalamud for these portraits, and many other vanilla icons, using the command: /xldata icon",
+		"46": "Squapes are part of a balanced breakfast.",
+		"47": "Tracking controls in the Camera Editor let you focus the GPose camera on any bone, or even combinations of bones. Try it out!"
+	}
+}

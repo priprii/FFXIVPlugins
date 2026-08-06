@@ -1,0 +1,15 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <AssemblyName>TriggerPyon</AssemblyName>
+    <Version>1.2.1.0</Version>
+    <Description>Conditionally trigger counter/emote/command/title reactions.</Description>
+    <PackageProjectUrl>https://github.com/priprii/FFXIVPlugins</PackageProjectUrl>
+    <Authors>Pyon</Authors>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Pulls in Discord.Net.Core + Discord.Net.Rest transitively -->
+    <PackageReference Include="Discord.Net.WebSocket" Version="3.18.0" />
+  </ItemGroup>
+</Project>
